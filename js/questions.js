@@ -8,20 +8,20 @@ $(function() {
 
   const NUMOPTIONS = 10;
 
-  const TYPE_MULTIPLECHOICE = "1";
-  const TYPE_FREETEXT = "2";
-  const TYPE_DISCLAIMER = "0";
+  const TYPE_MULTIPLECHOICE = '1';
+  const TYPE_FREETEXT = '2';
+  const TYPE_DISCLAIMER = '0';
 
   $(document).ready(init);
 
   function refreshUI() {
-    $("#next").text(UI(UI_NEXT));
+    $('#next').text(UI(UI_NEXT));
   }
 
   function init() {
     getQuestions();
     getUI(refreshUI);
-    $("#next").click(nextQuestion);
+    $('#next').click(nextQuestion);
     // leap_init(leap_action, 9);
   }
 
@@ -32,35 +32,35 @@ $(function() {
 
     var answers_str = answers_to_str(answers);
     var qrxml_str = encodeXMLQR(answers, questions);
-    sessionStorage.setItem("answers", answers_str);
-    sessionStorage.setItem("qrxml_str", qrxml_str);
-    sessionStorage.setItem("score", score);
-    window.location.href = "./qrPatient.php";
+    sessionStorage.setItem('answers', answers_str);
+    sessionStorage.setItem('qrxml_str', qrxml_str);
+    sessionStorage.setItem('score', score);
+    window.location.href = './qrPatient.html';
     //        $("#labelQuestionText").css("color", "green");
   }
 
   function saveAnswer(question) {
     var value = getAnswerValue(question);
     answers[current_question] = value;
-    var score_answer = question["score" + value];
+    var score_answer = question['score' + value];
     if (score_answer != null) score += parseInt(score_answer);
   }
 
   function getAnswerValue(question) {
-    switch (question["type"]) {
+    switch (question['type']) {
       case TYPE_MULTIPLECHOICE:
         for (i = 1; i <= NUMOPTIONS; i++) {
-          if ($("#radiooption" + i).is(":checked")) return i;
+          if ($('#radiooption' + i).is(':checked')) return i;
         }
         break;
       case TYPE_FREETEXT:
         if (
-          $("#inputText")
+          $('#inputText')
             .val()
             .trim().length === 0
         )
           return -1;
-        var ret = Number($("#inputText").val());
+        var ret = Number($('#inputText').val());
         return ret;
         break;
     }
@@ -69,13 +69,13 @@ $(function() {
 
   function unsetboldRadiobuttons() {
     for (i = 1; i <= NUMOPTIONS; i++) {
-      $("#option" + i).css("font-weight", "normal");
+      $('#option' + i).css('font-weight', 'normal');
     }
   }
 
   function uncheckRadiobuttons() {
     for (i = 1; i <= NUMOPTIONS; i++) {
-      $("#radiooption" + i).prop("checked", false);
+      $('#radiooption' + i).prop('checked', false);
     }
   }
 
@@ -97,9 +97,9 @@ $(function() {
       selected_radiooption = current_numoptions;
     if (hand_detected) {
       //$("#labelQuestionText").text("hand detected, position: " + palmposition + " height: " + height);
-      $("#radiooption" + selected_radiooption).prop("checked", true);
+      $('#radiooption' + selected_radiooption).prop('checked', true);
       if (selected) {
-        $("#option" + selected_radiooption).css("font-weight", "Bold");
+        $('#option' + selected_radiooption).css('font-weight', 'Bold');
       } else {
         unsetboldRadiobuttons();
       }
@@ -132,12 +132,12 @@ $(function() {
       finished();
       return false;
     }
-    nextquestion = question["nextquestion" + getAnswerValue(question)];
+    nextquestion = question['nextquestion' + getAnswerValue(question)];
     if (nextquestion == null) {
       current_question++;
     } else {
       for (i = 0; i < questions.length; i++) {
-        if (questions[i]["idquestion"] === nextquestion) {
+        if (questions[i]['idquestion'] === nextquestion) {
           current_question = i;
           break;
         }
@@ -150,7 +150,7 @@ $(function() {
   function setRadioButton(controlname, text) {
     if (text == null) {
       $(controlname).hide();
-      text = "";
+      text = '';
     } else {
       current_numoptions++;
       $(controlname).show();
@@ -165,7 +165,7 @@ $(function() {
 
   function hideRadiobuttons() {
     for (i = 1; i <= NUMOPTIONS; i++) {
-      setRadioButton("#option" + i, null);
+      setRadioButton('#option' + i, null);
     }
   }
   function showRadiobuttons() {
@@ -173,30 +173,30 @@ $(function() {
   }
 
   function hideInputText() {
-    $("#labelText").hide();
-    $("#inputText").hide();
+    $('#labelText').hide();
+    $('#inputText').hide();
   }
 
   function showInputText() {
-    $("#inputText").show();
-    $("#inputText").val("");
-    $("#labelText").show();
+    $('#inputText').show();
+    $('#inputText').val('');
+    $('#labelText').show();
   }
 
   function displayAnswerOptions(question) {
-    switch (question["type"]) {
+    switch (question['type']) {
       case TYPE_MULTIPLECHOICE:
         hideInputText();
         showRadiobuttons();
         current_numoptions = 0;
         for (i = 1; i <= NUMOPTIONS; i++) {
-          setRadioButton("#option" + i, question["option" + i]);
+          setRadioButton('#option' + i, question['option' + i]);
         }
         break;
       case TYPE_FREETEXT:
         hideRadiobuttons();
         showInputText();
-        $("#labelText").text(question["option1"]);
+        $('#labelText').text(question['option1']);
         break;
     }
   }
@@ -204,19 +204,19 @@ $(function() {
   function displayQuestion() {
     if (questions == null || current_question >= questions.length) {
       showMessage(
-        "Cannot display question.",
-        "Question " + i + " cannot be displayed"
+        'Cannot display question.',
+        'Question ' + i + ' cannot be displayed'
       );
       return;
     }
     var question = questions[current_question];
     //$("#labelNumQuestion").text("Frage " + (current_question + 1) + " von " + questions.length);
-    $("#labelQuestionText").text(question["text"]);
+    $('#labelQuestionText').text(question['text']);
     displayAnswerOptions(question);
   }
 
   function getQuestions() {
-    var language = sessionStorage.getItem("language");
+    var language = sessionStorage.getItem('language');
     $.getJSON(`/questions/${language}.json`, function(response) {
       questions = response;
       current_question = 0;
