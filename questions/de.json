@@ -1,5 +1,22 @@
 [
 	{
+		"idquestiontext" : 0,
+		"idquestion" : 0,
+		"language" : 1,
+		"text" : "Disclaimer <br><br><p>Die Nutzung dieser App ersetzt keine ärztliche Behandlung. Wenn Sie sich aktuell schwer krank fühlen, suchen Sie bitte umgehend medizinische Hilfe auf. <br><br>Hinweis auf die Verwendung von Cookies <br>Diese Website verwendet einen Cookie, welcher zur Handhabung der Website erforderlich ist. Persönliche Daten, die einen Rückschluss auf Ihre Person zulassen, werden nicht gespeichert. </p>",
+		"comment" : null,
+		"option1" : null,
+		"option2" : null,
+		"option3" : null,
+		"option4" : null,
+		"option5" : null,
+		"option6" : null,
+		"option7" : null,
+		"option8" : null,
+		"option9" : null,
+		"option10" : null
+	},
+	{
 		"idquestiontext" : 1,
 		"idquestion" : 1,
 		"language" : 1,
