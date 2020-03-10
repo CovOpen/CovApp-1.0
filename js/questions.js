@@ -31,7 +31,7 @@ $(function() {
     hideInputText();
 
     var qrxml_str = encodeXMLQR(answers, questions);
-    sessionStorage.setItem('qrxml_str', qrxml_str);
+    localStorage.setItem('qrxml_str', qrxml_str);
     sessionStorage.setItem('score', score);
     window.location.href = './qrPatient.html';
   }

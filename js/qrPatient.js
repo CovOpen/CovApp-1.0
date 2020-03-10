@@ -27,6 +27,7 @@ $(function() {
   }
 
   function risk_from_score(score) {
+    if (!score) return null;
     if (score >= 100) return HIGHRISK;
     if (score == 0) return LOWRISK;
     return MEDIUMRISK;
@@ -35,24 +36,22 @@ $(function() {
   function hidecontrols(risk) {
     switch (risk) {
       case HIGHRISK:
-        $('#medium_risk_card').hide();
-        $('#low_risk_card').hide();
+        $('#high_risk_card').show();
         break;
       case MEDIUMRISK:
-        $('#high_risk_card').hide();
-        $('#low_risk_card').hide();
-        break;
+        $('#medium_risk_card').show();
 
+        break;
       case LOWRISK:
-        $('#medium_risk_card').hide();
-        $('#high_risk_card').hide();
+        $('#low_risk_card').show();
         break;
     }
   }
 
   function generateQR() {
     var score = sessionStorage.getItem('score');
-    var qrxml_str = sessionStorage.getItem('qrxml_str');
+    var qrxml_str = localStorage.getItem('qrxml_str');
+    sessionStorage.removeItem('score');
 
     hidecontrols(risk_from_score(score));
 
