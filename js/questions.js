@@ -217,7 +217,7 @@ $(function() {
 
   function getQuestions() {
     var language = sessionStorage.getItem('language');
-    $.getJSON(`/questions/${language}.json`, function(response) {
+    $.getJSON(`./questions/${language}.json`, function(response) {
       questions = response;
       current_question = 0;
       for (i = 0; i < questions.length; i++) {

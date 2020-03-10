@@ -9,7 +9,7 @@ const UI_HIGHRISK = "6";
 var ui_strings;
 function getUI(UIcallback) {
   var language = sessionStorage.getItem("language");
-  $.getJSON(`/translations/${language}.json`, function(translations) {
+  $.getJSON(`./translations/${language}.json`, function(translations) {
     ui_strings = translations;
     UIcallback();
   }).fail(function(e) {
