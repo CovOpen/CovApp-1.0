@@ -27,7 +27,7 @@ $(function() {
   }
 
   function risk_from_score(score) {
-    if (score >= 1000) return HIGHRISK;
+    if (score >= 100) return HIGHRISK;
     if (score == 0) return LOWRISK;
     return MEDIUMRISK;
   }
