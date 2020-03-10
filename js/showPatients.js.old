@@ -1,0 +1,134 @@
+$(function () {
+    var patients;
+    var append_str;
+    $(document).ready(init);
+
+    function init() {
+        getPatients();
+    }
+
+    function app_init() {
+        append_str = "";
+    }
+
+    function app(str) {
+        append_str = append_str + str;
+    }
+    function app_finish() {
+        $("#dynamicdata").append(append_str);
+    }
+
+    function linkQRCode(idpatient) {
+        return "linkQRCode" + idpatient;
+    }
+
+    function linkViewPatient(idpatient) {
+        return "linkViewPatient" + idpatient;
+    }
+
+    function linkDeletePatient(idpatient) {
+        return "linkDeletePatient" + idpatient;
+    }
+
+    function gotoQRCode(idpatient) {
+        //window.alert(idpatient);
+        sessionStorage.setItem('idpatient', idpatient);
+        window.location.href = "./qrPatient.php";
+    }
+
+    function gotoViewPatient(idpatient) {
+        //window.alert(idpatient + " \n" + password_doctor);
+        sessionStorage.setItem("idpatient", idpatient);
+        sessionStorage.setItem("qrpassword", "");
+        window.location.href = "./viewPatient.php";
+    }
+
+    function gotoDeletePatient(idpatient) {
+        //window.alert(idpatient + " \n" + password_doctor);
+        sessionStorage.setItem("idpatient", idpatient);
+        sessionStorage.setItem("qrpassword", "");
+        window.location.href = "./deletePatient.php";
+    }
+
+
+    function displayPatients() {
+        app_init();
+        app("<div class=\"table-responsive\">");
+        app("<table class=\"table table-striped table-bordered\">");
+        app("<thead>");
+        app("<tr>");
+        app("<th scope=\"col\">ID</th>");
+        app("<th scope=\"col\">Foreign ID</th>");
+        app("<th scope=\"col\">Lastname</th>");
+        app("<th scope=\"col\">Forename</th>");
+        app("<th scope=\"col\">PROs</th>");
+        app("<th scope=\"col\">QR</th>");
+        app("<th scope=\"col\">Delete</th>");
+        app("</tr>");
+        app("</thead>");
+        app("<tbody>");
+
+        for (var i = 0; i < patients.length; i++) {
+            var patient = patients[i];
+
+            const lastname = patient["lastname"];
+            const firstname = patient["firstname"];
+            const password_patient = patient["password_patient"];
+            const password_doctor = patient["password_doctor"];
+            const idpatient = patient["idpatient"];
+            const foreignid = patient["foreignid"];
+
+            app("<tr>");
+            app("<td>" + idpatient + "</td>");
+            app("<td>" + foreignid + "</td>");
+            app("<td>" + lastname + "</td>");
+            app("<td>" + firstname + "</td>");
+            app("<td><a id=\"" + linkViewPatient(idpatient) + "\"><img alt=\"View\" src=\"image/Chart.png\"></a></td> ");
+            app("<td><a id=\"" + linkQRCode(idpatient) + "\"><img alt=\"QR\" src=\"image/QR.png\"></a><br></td>");
+            app("<td><a id=\"" + linkDeletePatient(idpatient) + "\"><img alt=\"Delete\" src=\"image/Delete.png\"></a><br></td>");
+            app("</tr>");
+
+            $(document).on('click', '#' + linkQRCode(idpatient), function (event) {
+                gotoQRCode(idpatient);
+            });
+            $(document).on('click', '#' + linkViewPatient(idpatient), function (event) {
+                gotoViewPatient(idpatient);
+            });
+            $(document).on('click', '#' + linkDeletePatient(idpatient), function (event) {
+                gotoDeletePatient(idpatient);
+            });
+        }
+        app("</tbody>");
+        app("</table>");
+        app("</div>");
+        app_finish();
+    }
+
+    function getPatients() {
+
+        var loginUsername = sessionStorage.getItem('loginUsername');
+        var loginPassword = sessionStorage.getItem('loginPassword');
+        $.ajax({
+            type: "POST",
+            url: "database.php",
+            data: {
+                action: "getpatients",
+                loginUsername: loginUsername,
+                loginPassword: loginPassword
+            },
+            success: function (ret) {
+                try {
+                patients = JSON.parse(ret);
+                displayPatients();
+                } catch (e) {
+                 showMessage("Error", "Patients could not be loaded.");
+                 }
+
+                return false;
+            }
+
+        });
+
+    }
+
+});

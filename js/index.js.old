@@ -1,0 +1,60 @@
+$(function () {
+
+    $(document).ready(init);
+
+    function init() {
+
+        initQRScanner();
+
+    }
+
+    function qrCodeFound(qrstr) {
+        if (qrstr.length < 8) return;
+        var patient, idpatient, qrpassword;
+
+        switch (qrstr.substring(0, 1)) {
+            case "0":
+                patient = false;
+                break;
+            case "1":
+                patient = true;
+                break;
+            default:
+                return;
+        }
+        qrpassword = qrstr.substring(1, 7);
+        idpatient = qrstr.substring(7);
+        sessionStorage.setItem("idpatient", idpatient);
+        sessionStorage.setItem("qrpassword", qrpassword);
+        sessionStorage.setItem('loginUsername', "");
+        sessionStorage.setItem('loginPassword', "");
+        if (patient) {
+            window.location.href = "./questions.php";
+        } else {
+            window.location.href = "./viewPatient.php";
+        }
+
+    }
+
+    function initQRScanner() {
+        let scanner = new Instascan.Scanner({video: document.getElementById('preview')});
+        scanner.addListener('scan', qrCodeFound);
+
+        Instascan.Camera.getCameras().then(function (cameras) {
+            if (cameras.length > 0) {
+	        if (cameras.length > 1) {
+                    scanner.start(cameras[1]);
+		}
+		else {
+                    scanner.start(cameras[0]);
+		}
+            } else {
+                window.location.href = "./nowebcam.php";
+            }
+        }).catch(function (e) {
+            window.location.href = "./nowebcam.php";
+        });
+
+    }
+
+});
