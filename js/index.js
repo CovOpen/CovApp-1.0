@@ -9,7 +9,7 @@ $(function () {
     $(document).ready(init);
 
     function init() {
-        leap_init(leap_action, 9)
+        // leap_init(leap_action, 9)
     }
 
     function leap_action(contaminated, too_low, hand_detected, height, selected, selected_final, palmposition) {

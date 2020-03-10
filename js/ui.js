@@ -6,37 +6,20 @@ const UI_LOWRISK = "4";
 const UI_MEDIUMRISK = "5";
 const UI_HIGHRISK = "6";
 
-
 var ui_strings;
 function getUI(UIcallback) {
-
-    var language = sessionStorage.getItem('language');
-    $.ajax({
-        type: "POST",
-        url: "database.php",
-        data: {
-            action: "getui",
-            language: language
-        },
-        success: function (ret) {
-            try {
-                ui_strings = JSON.parse(ret);
-                UIcallback()
-            } catch (e) {
-                showMessage("No UI translations", "UI translations could not be loaded.\n" + e.message);
-            }
-
-            return false;
-        }
-
-    });
-
+  var language = sessionStorage.getItem("language");
+  $.getJSON(`/translations/${language}.json`, function(translations) {
+    ui_strings = translations;
+    UIcallback();
+  }).fail(function(e) {
+    console.log(e);
+  });
 }
 
 function UI(token) {
-    for(i=0;i<ui_strings.length;i++)
-    {
-        if(ui_strings[i]['idui'] === token) return ui_strings[i]['text'];
-    }
-    return "translation missing";
+  for (i = 0; i < ui_strings.length; i++) {
+    if (ui_strings[i]["idui"] === token) return ui_strings[i]["text"];
+  }
+  return "translation missing";
 }

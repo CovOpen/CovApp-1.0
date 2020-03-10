@@ -1,0 +1,30 @@
+[
+    {
+      "idui": "0",
+      "text": "Nächste Frage"
+    },
+    {
+      "idui": "1",
+      "text": "Bitte beantworten Sie die Frage"
+    },
+    {
+      "idui": "2",
+      "text": "Bitte wählen Sie eine der Antwort Optionen aus."
+    },
+    {
+      "idui": "3",
+      "text": "Bitte begeben Sie sich zur Corona-Ambulanz der Charité. Das Vorzeigen folgenden Codes beschleunigt Ihre Anmeldung:"
+    },
+    {
+      "idui": "4",
+      "text": "Ihr Risiko ist niedrig. Sie haben sich weder in einem Risikogebiet aufgehalten, noch Kontakt zu infizierten Personen gehabt und Sie haben keine Symptome. Bitte bleiben Sie zu Hause und führen Sie den Test erneut durch, falls sich Ihre Symptome ändern sollten."
+    },
+    {
+      "idui": "5",
+      "text": "Ihr Risiko ist mittelmäßig. Sie hielten sich in keiner Risikoregion auf und hatten kein Kontakt zu infizierten Patienten. Dennoch können Ihre Symptome auf eine Erkrankung hinweisen. "
+    },
+    {
+      "idui": "6",
+      "text": "Ihr Risiko ist hoch. Sie waren in einem Risikogebiet oder hatten Kontakt zu einem Infizierten. Bitte rufen Sie die Hotline an: 030 123456."
+    }
+  ]

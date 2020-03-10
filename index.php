@@ -14,8 +14,8 @@
         <div class="container">
             <div class="jumbotron">
                 <h1 class="crop">CovAPP</h1>
-		        <button id="button1" type="button" class="btn btn-secondary btn-lg btn-block" onclick="setLanguage(1);"><img src="./image/flags/Germany.png"> Deutsch</button>
-		        <button id="button2" type="button" class="btn btn-secondary btn-lg btn-block" onclick="setLanguage(0);"><img src="./image/flags/United-Kingdom.png"> English</button>
+		        <button id="button1" type="button" class="btn btn-secondary btn-lg btn-block" onclick="setLanguage('de');"><img src="./image/flags/Germany.png"> Deutsch</button>
+		        <button id="button2" type="button" class="btn btn-secondary btn-lg btn-block" onclick="setLanguage('en');"><img src="./image/flags/United-Kingdom.png"> English</button>
                 <button id="button3" type="button" class="btn btn-secondary btn-lg btn-block" onclick="setLanguage(2);"><img src="./image/flags/Italy.png"> Italiano</button>
                 <button id="button4" type="button" class="btn btn-secondary btn-lg btn-block" onclick="setLanguage(6);"><img src="./image/flags/South-Korea.png"> 한국말</button>
                 <button id="button5" type="button" class="btn btn-secondary btn-lg btn-block" onclick="setLanguage(5);"><img src="./image/flags/China.png"> 标准汉语</button>
