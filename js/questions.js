@@ -22,7 +22,6 @@ $(function() {
     getQuestions();
     getUI(refreshUI);
     $('#next').click(nextQuestion);
-    // leap_init(leap_action, 9);
   }
 
   function finished() {
@@ -30,13 +29,10 @@ $(function() {
     hideRadiobuttons();
     hideInputText();
 
-    var answers_str = answers_to_str(answers);
     var qrxml_str = encodeXMLQR(answers, questions);
-    sessionStorage.setItem('answers', answers_str);
     sessionStorage.setItem('qrxml_str', qrxml_str);
     sessionStorage.setItem('score', score);
     window.location.href = './qrPatient.html';
-    //        $("#labelQuestionText").css("color", "green");
   }
 
   function saveAnswer(question) {
