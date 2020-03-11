@@ -3,11 +3,14 @@ $(function() {
   const MEDIUMRISK = 2;
   const LOWRISK = 1;
 
+  width = window.innerWidth - 60;
+  maxSize = 1024
+  size = Math.min(width, maxSize)
   var qrcode_patient_xml = new QRCode(
     document.getElementById('qrcode_patient_xml'),
     {
-      width: 1000,
-      height: 1000,
+      width: size,
+      height: size,
       correctLevel: QRCode.CorrectLevel.H
     }
   );

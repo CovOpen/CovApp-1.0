@@ -42,8 +42,14 @@ body {
   padding: 14px 24px;
 }
 
+#qrcode_patient_xml {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #qrcode_patient_xml img {
   width: 100%;
+  max-width: 100%;
 }
 
 #answers_table table {
@@ -61,4 +67,16 @@ td {
 
 #answers_table td {
   padding: 4px;
+.introduction {
+  text-align: start;
+}
+
+.introduction img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.introduction button a {
+  color: #ffffff;
+  text-decoration: none;
 }
