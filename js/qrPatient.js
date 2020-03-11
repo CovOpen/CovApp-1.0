@@ -28,6 +28,7 @@ $(function() {
     generateQR();
     printAnswersTable();
     getUI(refreshUI);
+    $('#print').click(function(){window.print()});
   }
 
   function risk_from_score(score) {
