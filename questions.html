@@ -1,93 +1,97 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="CovAPP">
-    <meta name="author" content="Thieme, AH">
-    <link rel="icon" href="./favicon.ico">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="CovAPP" />
+    <meta name="author" content="Thieme, AH" />
+    <link rel="icon" href="./favicon.ico" />
     <title>CovAPP</title>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
-    <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link href="css/bootstrap/dist/css/bootstrap-dialog.min.css" rel="stylesheet" type="text/css"/>
+    <link
+      href="css/bootstrap/dist/css/bootstrap-dialog.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="css/bootstrap/dist/js/bootstrap-dialog.min.js"></script>
-    <link href="css/bootstrap/example/jumbotron-narrow.css" rel="stylesheet">
-    <link href="css/covapp.css" rel="stylesheet">
+    <link href="css/bootstrap/example/jumbotron-narrow.css" rel="stylesheet" />
+    <link href="css/covapp.css" rel="stylesheet" />
 
-    <link href="css/bootstrap/example/jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/bootstrap/example/jumbotron-narrow.css" rel="stylesheet" />
     <script type="text/javascript" src="js/XMLWriter.js"></script>
     <script type="text/javascript" src="js/check.js"></script>
     <script type="text/javascript" src="js/ui.js"></script>
     <script type="text/javascript" src="js/qr.js"></script>
     <script type="text/javascript" src="js/questions.js"></script>
+  </head>
 
-</head>
-
-<body>
-
-<div class="container">
-
-
-    <div class="jumbotron">
+  <body>
+    <div class="container">
+      <div class="jumbotron">
         <div class="container-fluid text-left">
-            <div class="row text-right">
+          <!-- <div class="row text-right">
                 <label id="labelNumQuestion"></label>
+            </div> -->
+          <div class="row">
+            <h2><label id="labelQuestionText"></label></h2>
+            <div id="question_comment"></div>
+          </div>
+
+          <form class="form-horizontal" id="radiobuttons">
+            <fieldset>
+              <div class="radio">
+                <label id="option1"><input type="radio" id="roption1"/></label>
+              </div>
+              <div class="radio">
+                <label id="option2"><input type="radio" id="roption2"/></label>
+              </div>
+              <div class="radio">
+                <label id="option3"><input type="radio" id="roption3"/></label>
+              </div>
+              <div class="radio">
+                <label id="option4"><input type="radio" id="roption4"/></label>
+              </div>
+              <div class="radio">
+                <label id="option5"><input type="radio" id="roption5"/></label>
+              </div>
+              <div class="radio">
+                <label id="option6"><input type="radio" id="roption6"/></label>
+              </div>
+              <div class="radio">
+                <label id="option7"><input type="radio" id="roption7"/></label>
+              </div>
+              <div class="radio">
+                <label id="option8"><input type="radio" id="roption8"/></label>
+              </div>
+              <div class="radio">
+                <label id="option9"><input type="radio" id="roption9"/></label>
+              </div>
+              <div class="radio">
+                <label id="option10"
+                  ><input type="radio" id="roption10"
+                /></label>
+              </div>
+            </fieldset>
+            <div class="form-group">
+              <label class="control-label col-sm-3" id="labelText" for></label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="inputText" />
+              </div>
             </div>
-            <div class="row">
-                <h2><label id="labelQuestionText"></label></h2>
-                <div id="question_comment"></div>
-            </div>
-<h3>
-            <form class="form-horizontal" id="radiobuttons">
-                <fieldset>
-                    <div class="radio">
-                        <label id="option1"><input type="radio" id="roption1"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option2"><input type="radio" id="roption2"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option3"><input type="radio" id="roption3"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option4"><input type="radio" id="roption4"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option5"><input type="radio" id="roption5"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option6"><input type="radio" id="roption6"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option7"><input type="radio" id="roption7"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option8"><input type="radio" id="roption8"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option9"><input type="radio" id="roption9"></label>
-                    </div>
-                    <div class="radio">
-                        <label id="option10"><input type="radio" id="roption10"></label>
-                    </div>
-                </fieldset>
-                <div class="form-group">
-                    <label class="control-label col-sm-3" id="labelText" for></label>
-                    <div class="col-sm-9">
-                        <input type="text" class="form-control" id="inputText">
-                    </div>
-                </div>
-            </form>
-</h3>
-            <button id="next" class="btn btn-lg btn-primary btn-block">Nächste Frage</button>
+          </form>
+
+          <button id="next" class="btn btn-lg btn-primary btn-block">
+            Nächste Frage
+          </button>
         </div>
-    </div>
-    <footer class="footer">
+      </div>
+      <footer class="footer">
         <p>© 2020 CovAPP</p>
-    </footer>
-</div>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
