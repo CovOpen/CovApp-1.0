@@ -23,6 +23,11 @@ $(function() {
     getQuestions();
     getUI(refreshUI);
     $('#next').click(nextQuestion);
+    $(document).keypress(function(e){
+      if (e.which == 13){
+          $("#next").click();
+      }
+    });
   }
 
   function finished() {
@@ -32,8 +37,7 @@ $(function() {
 
     var qrxml_str = encodeXMLQR(answers, questions);
     var printable_answers = generatePrintableAnswers()
-    var answers_table = generateAnswerTableHTML(printable_answers)
-    localStorage.setItem('answers_table', answers_table)
+    localStorage.setItem('printable_answers', JSON.stringify(printable_answers))
     localStorage.setItem('qrxml_str', qrxml_str);
     sessionStorage.setItem('score', score);
     window.location.href = './qrPatient.html';
@@ -54,17 +58,6 @@ $(function() {
     }
 
     return question_anwers
-  }
-
-  function generateAnswerTableHTML(printable_answers) {
-
-    html = "<table><tr><th>Question</th><th>Answer</th></tr>"
-    for (i = 0; i < printable_answers.length; i++) {
-      html += "<tr><td>" + printable_answers[i].question + "</td><td>" + printable_answers[i].answer + "</td></tr>"
-    }
-    html += "</table>"
-    console.log(html);
-    return html
   }
 
   function saveAnswer(question) {

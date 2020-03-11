@@ -50,8 +50,18 @@ $(function() {
   }
 
   function printAnswersTable() {
-    var tableHTML = localStorage.getItem('answers_table');
+    var printable_answers = localStorage.getItem('printable_answers');
+    var tableHTML = generateAnswerTableHTML(JSON.parse(printable_answers))
     $('#answers_table').html(tableHTML);
+  }
+
+  function generateAnswerTableHTML(printable_answers) {
+    html = "<table>"
+    for (i = 0; i < printable_answers.length; i++) {
+      html += "<tr><td>" + printable_answers[i].question + "</td><td>" + printable_answers[i].answer + "</td></tr>"
+    }
+    html += "</table>"
+    return html
   }
 
   function generateQR() {
