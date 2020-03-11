@@ -45,3 +45,15 @@ body {
 #qrcode_patient_xml img {
   width: 100%;
 }
+
+#answers_table table{
+    width: 100%;
+}
+
+#answers_table th,td {
+  text-align: left;
+}
+
+#answers_table tr:nth-child(even) {
+  background-color: #dddddd;
+}

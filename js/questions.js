@@ -58,11 +58,12 @@ $(function() {
 
   function generateAnswerTableHTML(printable_answers) {
 
-    html = ""
+    html = "<table><tr><th>Question</th><th>Answer</th></tr>"
     for (i = 0; i < printable_answers.length; i++) {
-      html += "<strong>" + printable_answers[i].question + "</strong> " + printable_answers[i].answer + "<br></br>"
+      html += "<tr><td>" + printable_answers[i].question + "</td><td>" + printable_answers[i].answer + "</td></tr>"
     }
-
+    html += "</table>"
+    console.log(html);
     return html
   }
 
