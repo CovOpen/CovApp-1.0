@@ -101,6 +101,7 @@ td {
 
 .form-horizontal label {
   font-size: 20px;
+  display: block;
 }
 
 .h2,
