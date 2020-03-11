@@ -51,7 +51,6 @@ $(function() {
 
   function printAnswersTable() {
     var tableHTML = localStorage.getItem('answers_table');
-    console.log(tableHTML);
     $('#answers_table').html(tableHTML);
   }
 
