@@ -731,7 +731,7 @@
 	{
 		"idquestion" : 27,
 		"XMLFIELD" : "RHINITIS",
-		"XMLFIELD2" : "0",
+		"XMLFIELD2" : "A0",
 		"type" : 1,
 		"score1" : 100,
 		"score2" : null,
@@ -758,7 +758,7 @@
 	{
 		"idquestion" : 28,
 		"XMLFIELD" : "DIARRHAE",
-		"XMLFIELD2" : "1",
+		"XMLFIELD2" : "A1",
 		"type" : 1,
 		"score1" : 100,
 		"score2" : null,
@@ -785,7 +785,7 @@
 	{
 		"idquestion" : 29,
 		"XMLFIELD" : "SORETHROAT",
-		"XMLFIELD2" : "2",
+		"XMLFIELD2" : "A2",
 		"type" : 1,
 		"score1" : 100,
 		"score2" : null,
@@ -812,7 +812,7 @@
 	{
 		"idquestion" : 30,
 		"XMLFIELD" : "HEADACHE",
-		"XMLFIELD2" : "3",
+		"XMLFIELD2" : "A3",
 		"type" : 1,
 		"score1" : 100,
 		"score2" : null,
@@ -839,7 +839,7 @@
 	{
 		"idquestion" : 31,
 		"XMLFIELD" : "ONSETSYMPTOMS",
-		"XMLFIELD2" : "4",
+		"XMLFIELD2" : "A4",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -866,7 +866,7 @@
 	{
 		"idquestion" : 32,
 		"XMLFIELD" : "LUNGDISEASE",
-		"XMLFIELD2" : "5",
+		"XMLFIELD2" : "A5",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -893,7 +893,7 @@
 	{
 		"idquestion" : 33,
 		"XMLFIELD" : "DIABETES",
-		"XMLFIELD2" : "6",
+		"XMLFIELD2" : "A6",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -920,7 +920,7 @@
 	{
 		"idquestion" : 34,
 		"XMLFIELD" : "HEARTDISEASE",
-		"XMLFIELD2" : "7",
+		"XMLFIELD2" : "A7",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -947,7 +947,7 @@
 	{
 		"idquestion" : 35,
 		"XMLFIELD" : "OVERWEIGHT",
-		"XMLFIELD2" : "8",
+		"XMLFIELD2" : "A8",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -974,7 +974,7 @@
 	{
 		"idquestion" : 36,
 		"XMLFIELD" : "PREGNANCY",
-		"XMLFIELD2" : "9",
+		"XMLFIELD2" : "A9",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -1001,7 +1001,7 @@
 	{
 		"idquestion" : 37,
 		"XMLFIELD" : "CORTISONE",
-		"XMLFIELD2" : "10",
+		"XMLFIELD2" : "B0",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -1028,7 +1028,7 @@
 	{
 		"idquestion" : 38,
 		"XMLFIELD" : "IMMUNSUPPRESSANT",
-		"XMLFIELD2" : "11",
+		"XMLFIELD2" : "B1",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
@@ -1055,7 +1055,7 @@
 	{
 		"idquestion" : 39,
 		"XMLFIELD" : "INFLUENZA",
-		"XMLFIELD2" : "12",
+		"XMLFIELD2" : "B2",
 		"type" : 1,
 		"score1" : null,
 		"score2" : null,
