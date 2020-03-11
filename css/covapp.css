@@ -52,16 +52,21 @@ body {
   max-width: 100%;
 }
 
-#answers_table table{
-    width: 100%;
+#answers_table table {
+  width: 100%;
 }
 
-#answers_table th,td {
+#answers_table th,
+td {
   text-align: left;
 }
 
 #answers_table tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+#answers_table td {
+  padding: 4px;
 }
 
 .introduction {

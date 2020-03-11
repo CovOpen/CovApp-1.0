@@ -23,9 +23,9 @@ $(function() {
     getQuestions();
     getUI(refreshUI);
     $('#next').click(nextQuestion);
-    $(document).keypress(function(e){
-      if (e.which == 13){
-          $("#next").click();
+    $(document).keypress(function(e) {
+      if (e.which == 13) {
+        $('#next').click();
       }
     });
   }
@@ -36,28 +36,30 @@ $(function() {
     hideInputText();
 
     var qrxml_str = encodeXMLQR(answers, questions);
-    var printable_answers = generatePrintableAnswers()
-    localStorage.setItem('printable_answers', JSON.stringify(printable_answers))
+    var printable_answers = generatePrintableAnswers();
+    localStorage.setItem(
+      'printable_answers',
+      JSON.stringify(printable_answers)
+    );
     localStorage.setItem('qrxml_str', qrxml_str);
     sessionStorage.setItem('score', score);
     window.location.href = './qrPatient.html';
   }
 
   function generatePrintableAnswers() {
-
-    question_anwers = []
-    for (i = 0; i < answers.length; i ++) {
+    question_anwers = [];
+    for (i = 0; i < answers.length; i++) {
       answer = answers[i];
       if (answer > 0) {
         question_answer = {
           question: questions_text[i].text,
-          answer: questions_text[i]["option"+answer]
-        }
-        question_anwers.push(question_answer)
+          answer: questions_text[i]['option' + answer]
+        };
+        question_anwers.push(question_answer);
       }
     }
 
-    return question_anwers
+    return question_anwers;
   }
 
   function saveAnswer(question) {
@@ -126,9 +128,15 @@ $(function() {
   function setRadioButton(controlname, text) {
     if (text == null) {
       $(controlname).hide();
+      $(controlname)
+        .parent('.radio')
+        .hide();
       text = '';
     } else {
       current_numoptions++;
+      $(controlname)
+        .parent('.radio')
+        .show();
       $(controlname).show();
     }
     $(controlname).html(
@@ -194,9 +202,9 @@ $(function() {
     var question_text = questions_text[current_question];
     $('#labelQuestionText').html(question_text['text']);
     if (question_text.comment != null) {
-      $('#question_comment').html(question_text.comment)
+      $('#question_comment').html(question_text.comment);
     } else {
-      $('#question_comment').html("")
+      $('#question_comment').html('');
     }
     displayAnswerOptions(question, question_text);
   }
