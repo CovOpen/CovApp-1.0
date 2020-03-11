@@ -63,3 +63,17 @@ body {
 #answers_table tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.introduction {
+  text-align: start;
+}
+
+.introduction img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.introduction button a {
+  color: #ffffff;
+  text-decoration: none;
+}
