@@ -31,9 +31,39 @@ $(function() {
     hideInputText();
 
     var qrxml_str = encodeXMLQR(answers, questions);
+    var printable_answers = generatePrintableAnswers()
+    var answers_table = generateAnswerTableHTML(printable_answers)
+    localStorage.setItem('answers_table', answers_table)
     localStorage.setItem('qrxml_str', qrxml_str);
     sessionStorage.setItem('score', score);
     window.location.href = './qrPatient.html';
+  }
+
+  function generatePrintableAnswers() {
+
+    question_anwers = []
+    for (i = 0; i < answers.length; i ++) {
+      answer = answers[i];
+      if (answer > 0) {
+        question_answer = {
+          question: questions_text[i].text,
+          answer: questions_text[i]["option"+answer]
+        }
+        question_anwers.push(question_answer)
+      }
+    }
+
+    return question_anwers
+  }
+
+  function generateAnswerTableHTML(printable_answers) {
+
+    html = ""
+    for (i = 0; i < printable_answers.length; i++) {
+      html += "<strong>" + printable_answers[i].question + "</strong> " + printable_answers[i].answer + "<br></br>"
+    }
+
+    return html
   }
 
   function saveAnswer(question) {

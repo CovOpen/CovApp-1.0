@@ -23,6 +23,7 @@ $(function() {
 
   function init() {
     generateQR();
+    printAnswersTable();
     getUI(refreshUI);
   }
 
@@ -46,6 +47,12 @@ $(function() {
         $('#low_risk_card').show();
         break;
     }
+  }
+
+  function printAnswersTable() {
+    var tableHTML = localStorage.getItem('answers_table');
+    console.log(tableHTML);
+    $('#answers_table').html(tableHTML);
   }
 
   function generateQR() {
