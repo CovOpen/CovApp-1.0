@@ -14,6 +14,7 @@ body {
   padding-bottom: 20px;
   background-image: url('../image/background.png');
   cursor: pointer;
+  font-size: 16px;
 }
 
 .container-narrow {
@@ -81,4 +82,50 @@ td {
 .introduction button a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+#answers_table table {
+  width: 100%;
+  font-size: 14px;
+}
+
+.form-horizontal {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.form-horizontal label {
+  font-size: 20px;
+}
+
+.h2,
+h2 {
+  font-size: 28px;
+}
+
+.h3,
+h3 {
+  font-size: 24px;
+}
+
+.h4,
+h4 {
+  font-size: 20px;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  line-height: 1.5;
 }
