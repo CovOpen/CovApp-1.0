@@ -193,6 +193,11 @@ $(function() {
     var question = questions[current_question];
     var question_text = questions_text[current_question];
     $('#labelQuestionText').html(question_text['text']);
+    if (question_text.comment != null) {
+      $('#question_comment').html(question_text.comment)
+    } else {
+      $('#question_comment').html("")
+    }
     displayAnswerOptions(question, question_text);
   }
 
