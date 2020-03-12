@@ -214,7 +214,7 @@ $(function() {
     $.getJSON(`./questions/logic.json`, function(logicResponse) {
       questions = logicResponse;
 
-      $.getJSON(`./questions/${language}.json`, function(textResponse) {
+      $.getJSON(`./questions/de.json`, function(textResponse) {
         questions_text = textResponse;
         current_question = 0;
         for (i = 0; i < questions.length; i++) {
