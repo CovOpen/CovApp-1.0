@@ -1,9 +1,7 @@
 [
 	{
-		"idquestiontext" : 40,
 		"idquestion" : 0,
-		"language" : 0,
-		"text" : "Disclaimer<br><br><p>Usage of this app does not substitute medical treatment by a physician. If you currently feel ill, please immediately contact a physician.<br><br>Remarks regarding usage of cookies   This website uses cookis, which are nessary for the function of the website. Personal data is not stored and no conclusions regarding the identitiy of the user can be made. </p>",
+		"text" : "Disclaimer <br><br><p>Usage of this app does not substitute medical treatment by a physician. If you currently feel ill, please immediately contact a physician. <br><br>Remarks regarding usage of cookies<br>This website uses cookies, which are necessary for the function of the website. Personal data is not stored and no conclusions regarding the identity of the user can be made.",
 		"comment" : null,
 		"option1" : null,
 		"option2" : null,
@@ -17,9 +15,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 41,
 		"idquestion" : 1,
-		"language" : 0,
 		"text" : "How old are you?",
 		"comment" : null,
 		"option1" : "younger than 40",
@@ -34,14 +30,12 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 42,
 		"idquestion" : 2,
-		"language" : 0,
 		"text" : "How do you live?",
 		"comment" : null,
 		"option1" : "alone",
 		"option2" : "with family, flat-sharing community or supervised flat-sharing community",
-		"option3" : "with friends",
+		"option3" : null,
 		"option4" : null,
 		"option5" : null,
 		"option6" : null,
@@ -51,9 +45,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 43,
 		"idquestion" : 3,
-		"language" : 0,
 		"text" : "Do you work in one of the follwing areas?",
 		"comment" : null,
 		"option1" : "medical sector",
@@ -68,9 +60,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 44,
 		"idquestion" : 4,
-		"language" : 0,
 		"text" : "Do you smoke?",
 		"comment" : null,
 		"option1" : "yes",
@@ -85,9 +75,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 45,
 		"idquestion" : 5,
-		"language" : 0,
 		"text" : "Have you travelled in the last 4 weeks? (inside or outside of Germany)",
 		"comment" : null,
 		"option1" : "yes",
@@ -102,9 +90,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 46,
 		"idquestion" : 6,
-		"language" : 0,
 		"text" : "Have you been in North Rhine-Westphalia (NRW)?",
 		"comment" : null,
 		"option1" : "yes",
@@ -119,9 +105,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 47,
 		"idquestion" : 7,
-		"language" : 0,
 		"text" : "Have you been outside of Germany in the last 4 weeks?",
 		"comment" : null,
 		"option1" : "yes",
@@ -136,9 +120,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 48,
 		"idquestion" : 8,
-		"language" : 0,
 		"text" : "Have you visited one of the following countries?",
 		"comment" : null,
 		"option1" : "Italy",
@@ -153,9 +135,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 49,
 		"idquestion" : 9,
-		"language" : 0,
 		"text" : "Italy: Have you visited one of the following regions?",
 		"comment" : null,
 		"option1" : "region Trentino-South Tirol",
@@ -170,9 +150,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 50,
 		"idquestion" : 10,
-		"language" : 0,
 		"text" : "Iran: Have you visited one of the following regions?",
 		"comment" : null,
 		"option1" : "Qom Province",
@@ -187,9 +165,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 51,
 		"idquestion" : 11,
-		"language" : 0,
 		"text" : "China: Have you visited one of the following regions?",
 		"comment" : null,
 		"option1" : "Province Hubei (including city of Wuhan)",
@@ -204,9 +180,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 52,
 		"idquestion" : 12,
-		"language" : 0,
 		"text" : "South Korea: Have you visited one of the following regions?",
 		"comment" : null,
 		"option1" : "Province North Gyeongsang Province",
@@ -221,13 +195,11 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 53,
 		"idquestion" : 13,
-		"language" : 0,
-		"text" : null,
+		"text" : "France: Have you visited one of the following regions?",
 		"comment" : null,
-		"option1" : null,
-		"option2" : null,
+		"option1" : "Region Grand Est (including Alsace, Lorraine and Champagne-Ardenne)",
+		"option2" : "I haven't visited any of these regions",
 		"option3" : null,
 		"option4" : null,
 		"option5" : null,
@@ -238,9 +210,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 54,
 		"idquestion" : 14,
-		"language" : 0,
 		"text" : null,
 		"comment" : null,
 		"option1" : null,
@@ -255,9 +225,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 55,
 		"idquestion" : 15,
-		"language" : 0,
 		"text" : null,
 		"comment" : null,
 		"option1" : null,
@@ -272,9 +240,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 56,
 		"idquestion" : 16,
-		"language" : 0,
 		"text" : "Did you return in the last 14 days?",
 		"comment" : null,
 		"option1" : "yes",
@@ -289,9 +255,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 57,
 		"idquestion" : 17,
-		"language" : 0,
 		"text" : "Did you have close contact with a verified case?",
 		"comment" : "Close contact with a verified case means:<br/><br/>- you live in the same house<br/>- contact from face to face longer than a couple of minutes<br/>- been coughed on<br/>- been longer than 15 minutes closer than 2 meters to the person<br/>- contact with/exchange of body fluids",
 		"option1" : "yes",
@@ -306,9 +270,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 58,
 		"idquestion" : 18,
-		"language" : 0,
 		"text" : "Did you have close contact with a suspected case?",
 		"comment" : "Close contact with a suspected case means:<br/><br/>- you live in the same house<br/>- contact from face to face longer than a couple of minutes<br/>- been coughed on<br/>- been longer than 15 minutes closer than 2 meters to the person<br/>- contact with/exchange of body fluids",
 		"option1" : "yes",
@@ -323,9 +285,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 59,
 		"idquestion" : 19,
-		"language" : 0,
 		"text" : "Did you have contact in the last 14 days?",
 		"comment" : null,
 		"option1" : "yes",
@@ -340,26 +300,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 60,
 		"idquestion" : 20,
-		"language" : 0,
-		"text" : "Did you have fever (above 38°C) in the last 4 days?",
-		"comment" : null,
-		"option1" : "yes",
-		"option2" : "no",
-		"option3" : null,
-		"option4" : null,
-		"option5" : null,
-		"option6" : null,
-		"option7" : null,
-		"option8" : null,
-		"option9" : null,
-		"option10" : null
-	},
-	{
-		"idquestiontext" : 61,
-		"idquestion" : 21,
-		"language" : 0,
 		"text" : "Did you have fever in the last 24 hours?",
 		"comment" : null,
 		"option1" : "yes",
@@ -374,9 +315,22 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 62,
+		"idquestion" : 21,
+		"text" : "Did you have fever (above 38°C) in the last 4 days?",
+		"comment" : null,
+		"option1" : "yes",
+		"option2" : "no",
+		"option3" : null,
+		"option4" : null,
+		"option5" : null,
+		"option6" : null,
+		"option7" : null,
+		"option8" : null,
+		"option9" : null,
+		"option10" : null
+	},
+	{
 		"idquestion" : 22,
-		"language" : 0,
 		"text" : "What was the highest temperature?",
 		"comment" : null,
 		"option1" : "< 38 °C",
@@ -391,9 +345,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 63,
 		"idquestion" : 23,
-		"language" : 0,
 		"text" : "Do you have chills?",
 		"comment" : null,
 		"option1" : "yes",
@@ -408,10 +360,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 64,
 		"idquestion" : 24,
-		"language" : 0,
-		"text" : "Exhaustion // do you feel weak?",
+		"text" : "Do you feel weak and exhausted?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -425,10 +375,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 65,
 		"idquestion" : 25,
-		"language" : 0,
-		"text" : "Limb pain?",
+		"text" : "Do you have limb pain?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -442,10 +390,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 66,
 		"idquestion" : 26,
-		"language" : 0,
-		"text" : "Cough?",
+		"text" : "Do you have cough?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -459,10 +405,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 67,
 		"idquestion" : 27,
-		"language" : 0,
-		"text" : "Rhinitis?",
+		"text" : "Do you have rhinitis?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -476,10 +420,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 68,
 		"idquestion" : 28,
-		"language" : 0,
-		"text" : "Diarrhea?",
+		"text" : "Do you have diarrhea?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -493,10 +435,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 69,
 		"idquestion" : 29,
-		"language" : 0,
-		"text" : "Sore throat?",
+		"text" : "Do you have a sore throat?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -510,10 +450,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 70,
 		"idquestion" : 30,
-		"language" : 0,
-		"text" : "Headache?",
+		"text" : "Did you have Headache?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -527,9 +465,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 71,
 		"idquestion" : 31,
-		"language" : 0,
 		"text" : "Did you experience any of the symptoms in the last 14 days?",
 		"comment" : null,
 		"option1" : "yes",
@@ -544,9 +480,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 72,
 		"idquestion" : 32,
-		"language" : 0,
 		"text" : "Do you have chronic lung diseases?",
 		"comment" : null,
 		"option1" : "yes",
@@ -561,9 +495,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 73,
 		"idquestion" : 33,
-		"language" : 0,
 		"text" : "Do you have diabetes?",
 		"comment" : null,
 		"option1" : "yes",
@@ -578,9 +510,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 74,
 		"idquestion" : 34,
-		"language" : 0,
 		"text" : "Do you have heart diseases?",
 		"comment" : null,
 		"option1" : "yes",
@@ -595,10 +525,8 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 75,
 		"idquestion" : 35,
-		"language" : 0,
-		"text" : "Do you have overweight?",
+		"text" : "Do you have obesity?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -612,9 +540,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 76,
 		"idquestion" : 36,
-		"language" : 0,
 		"text" : "Are you pregnant?",
 		"comment" : null,
 		"option1" : "yes",
@@ -629,9 +555,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 77,
 		"idquestion" : 37,
-		"language" : 0,
 		"text" : "Do you currently take cortisone?",
 		"comment" : null,
 		"option1" : "yes",
@@ -646,9 +570,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 78,
 		"idquestion" : 38,
-		"language" : 0,
 		"text" : "Do you currently take immunsuppresive drugs?",
 		"comment" : "You are immunosuppressed after an organ transplantation, if you receive treatment for autoimmunue diseases or if you currently receive chemotherapy.",
 		"option1" : "yes",
@@ -663,9 +585,7 @@
 		"option10" : null
 	},
 	{
-		"idquestiontext" : 79,
 		"idquestion" : 39,
-		"language" : 0,
 		"text" : "Did you receive vaccination for influenza anytime between October 2019 and now?",
 		"comment" : null,
 		"option1" : "yes",
