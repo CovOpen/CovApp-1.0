@@ -130,4 +130,5 @@ ul {
   width: 300px;
   margin: 0 auto 30px;
   display: block;
+  max-width: 80%;
 }
