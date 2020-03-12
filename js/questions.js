@@ -233,7 +233,11 @@ $(function() {
     $.getJSON(`./questions/logic.json`, function(logicResponse) {
       questions = logicResponse;
 
+<<<<<<< HEAD
       $.getJSON(`./questions/` + language + `.json`, function(textResponse) {
+=======
+      $.getJSON('./questions/' + language + '.json', function(textResponse) {
+>>>>>>> c15ae4a160722037cd8723d7009881a09d317b5e
         questions_text = textResponse;
         current_question = 0;
         for (i = 0; i < questions.length; i++) {
