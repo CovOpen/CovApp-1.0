@@ -48,10 +48,11 @@
 <div class="container">
     <div class="jumbotron">
         <div id="score" align="left"></div>
-        <div style="display: none;">
+        <img src="./image/charite-logo.png" class="logo" alt="Charité Logo" />
+
             <div align="left" id="high_risk_card" class="card" style="max-width:600px; display:none;">
-                <h3 class="card-title">Hohes Risiko</h3>
-                <img class="card-img-top" src="image/high_risk.png" style="width: 100%;" alt="High Risk">
+                <h3 class="card-title" id="high_risk_title"></h3>
+                <img class="card-img-top" src="image/high_risk.png" style="width: 10%;" alt="High Risk">
                 <div class="card-body">
                     <p id="high_risk" class="card-text"></p>
                 </div>
@@ -59,25 +60,25 @@
 
             <div align="left" id="medium_risk_card" class="card" style="display:none">
                 <div class="card-body">
-                    <h3 class="card-title">Mittleres Risiko</h3>
-                    <img class="card-img-top" src="image/medium_risk.png" style="width: 100%;" alt="Medium Risk">
+                    <h3 class="card-title" id="medium_risk_title"></h3>
+                    <img class="card-img-top" src="image/medium_risk.png" style="width: 10%;" alt="Medium Risk">
                     <p id="medium_risk" class="card-text"></p>
                 </div>
             </div>
 
             <div align="left" id="low_risk_card" class="card" style="display:none">
-                <h3 class="card-title">Niedriges Risiko</h3>
-                <img class="card-img-top" src="image/low_risk.png" style="width: 100%;" alt="Low Risk">
+                <h3 class="card-title" id="low_risk_title"></h3>
+                <img class="card-img-top" src="image/low_risk.png" style="width: 10%;" alt="Low Risk">
                 <div class="card-body">
                     <p id = "low_risk" class="card-text"></p>
                 </div>
             </div>
-        </div>
 
-        <img src="./image/charite-logo.png" class="logo" alt="Charité Logo" />
+
+
         <div id="qrcode">
             <h3>
-                <div id="qrcode_instructions"></div>
+                <div id="qrcode_instructions" style="display:none;"></div>
             </h3>
             <div id="qrcode_patient_xml"></div>
         </div>

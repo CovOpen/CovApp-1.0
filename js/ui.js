@@ -26,6 +26,10 @@ const UI_QRCODEINSTRUCTIONS = "3";
 const UI_LOWRISK = "4";
 const UI_MEDIUMRISK = "5";
 const UI_HIGHRISK = "6";
+const UI_LOWRISKTITLE = "7";
+const UI_MEDIUMRISKTITLE = "8";
+const UI_HIGHRISKTITLE = "9";
+
 
 var ui_strings;
 function getUI(UIcallback) {

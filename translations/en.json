@@ -15,5 +15,29 @@
   {
     "idui": "3",
     "text": "If you decide to go to the Corona ambulance of Charité, please show the following QR code, which will speed up your registration:"
+  },
+  {
+    "idui": "4",
+    "text": "Currently, you don't need to do anything, since: <br><br>- you didn't have contact to a verified case<br>- you haven't been in a risk region with frequent SARS-COV2 cases<br>- and you don't have symptoms.<br>Please carefully take hand hygiene into consideration.<br><br>If you develop symptoms of a cold in the next couple of days, please contact the hotline of the Senate Department for Health (Tel. 030/9028  28 28) or one of the Coronavirus ambulances. <br><br>If you decide to go to the Coronavirus ambulance of the Charité, please show the following QR Code to speed up your registration process:"
+  },
+  {
+    "idui": "5",
+    "text": "Please immediately contact your local health department or call the hotline of the Senate Department for Health (Tel. 030/9028  28 28).<br>Please avoid contact to other people and stay at home, if possible.<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons. If you develop symptoms of a cold in the next couple of days, please contact the hotline of the Senate Department for Health (Tel. 030/9028  28 28) or one of the Coronavirus ambulances. <br><br>If you decide to go to the Coronavirus ambulance of the Charité, please show the following QR Code to speed up your registration process:"
+  },
+  {
+    "idui": "6",
+    "text": "Please immediately contact your local health department or call the hotline of the Senate Department for Health (Tel. 030/9028  28 28).<br>Please save the below QR Code and show it at the Coronavirus ambulance (currently, scanning of the QR Code is only possible at Charité).<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons.<br><br>If you decide to go to the Coronavirus ambulance of the Charité, please show the following QR Code to speed up your registration process:"
+  },
+  {
+    "idui": "7",
+    "text": "Low Risk"
+  },
+  {
+    "idui": "8",
+    "text": "Medium Risk"
+  },
+  {
+    "idui": "9",
+    "text": "High Risk"
   }
 ]
