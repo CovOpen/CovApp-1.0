@@ -121,7 +121,7 @@
 	},
 	{
 		"idquestion" : 8,
-		"text" : "Waren Sie in einem der folgenden Länder?",
+		"text" : "Bitte wählen Sie das Land, welches Sie zuletzt besucht haben.",
 		"comment" : null,
 		"option1" : "Italien",
 		"option2" : "Iran",
