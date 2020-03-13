@@ -230,6 +230,12 @@ $(function() {
 
   function getQuestions() {
     var language = sessionStorage.getItem('language');
+
+    if (!language) {
+      language = 'de';
+      sessionStorage.setItem('language', 'de');
+    }
+
     $.getJSON(`./questions/logic.json`, function(logicResponse) {
       questions = logicResponse;
 
