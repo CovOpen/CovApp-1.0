@@ -18,14 +18,26 @@
   },
   {
     "idui": "4",
-    "text": "Ihr Risiko ist niedrig. Sie haben sich weder in einem Risikogebiet aufgehalten, noch Kontakt zu infizierten Personen gehabt und Sie haben keine Symptome. Bitte bleiben Sie zu Hause und führen Sie den Test erneut durch, falls sich Ihre Symptome ändern sollten."
+    "text": "Sie brauchen derzeit nichts zu tun, da Sie: <br><br>- keinen Kontakt zu einem bestätigten Fall hatten,<br>- in keiner Region mit gehäuften SARS-COV2-Fällen waren<br>- und keine Symptome haben.<br>Achten Sie vermehrt auf gute Händehygiene.<br><br>Sollten Sie in den nächsten Tagen Erkältungssymptome entwicklen, melden Sie bei der Hotline der Senatsgesundheitsverwaltung (Tel. 030/9028  28 28) oder in einer der Corona-Ambulanzen. <br><br>Falls Sie sich entschliessen, zur Corona Ambulanz der Charité zu gehen, zeigen Sie bitte folgenden QR Code vor, um Ihre Anmeldung zu beschleunigen:"
   },
   {
     "idui": "5",
-    "text": "Ihr Risiko ist mittelmäßig. Sie hielten sich in keiner Risikoregion auf und hatten kein Kontakt zu infizierten Patienten. Dennoch können Ihre Symptome auf eine Erkrankung hinweisen. "
+    "text": "Bitte nehmen Sie unverzüglich Kontakt zum zuständigen Gesundheitsamt auf oder kontaktieren Sie die Hotline der Senatsgesundheitsverwaltung (Tel. 030/9028  28 28).<br>Vermeiden Sie unnötige Kontakte zu anderen Personen und bleiben Sie nach Möglichkeit zu Hause.<br>Wenn Sie das Haus verlassen: Halten Sie ausreichend Abstand (>2m) zu anderen Personen, fassen Sie möglichst nichts an und achten Sie auf die Regeln für richtiges Husten und Niesen. Sollten Sie in den nächsten Tagen Erkältungssymptome entwicklen, melden Sie bei der Hotline der Senatsgesundheitsverwaltung (Tel. 030/9028  28 28) oder in einer der Corona-Ambulanzen. <br><br>Falls Sie sich entschliessen, zur Corona Ambulanz der Charité zu gehen, zeigen Sie bitte folgenden QR Code vor, um Ihre Anmeldung zu beschleunigen:"
   },
   {
     "idui": "6",
-    "text": "Ihr Risiko ist hoch. Sie waren in einem Risikogebiet oder hatten Kontakt zu einem Infizierten. Bitte rufen Sie die Hotline an: 030 123456."
+    "text": "Bitte melden Sie sich bei der Hotline der Senatsgesundheitsverwaltung (Tel. 030/9028  28 28) oder kommen Sie in eine der Corona-Ambulanzen.<br>Bitte speichern Sie den folgenden QR-Code und zeigen Sie diesen in der Ambulanz vor (aktuell nur in der Charitéambulanz möglich).<br>Wenn Sie das Haus verlassen: Halten Sie ausreichend Abstand (>2m) zu anderen Personen, fassen Sie möglichst nichts an und achten Sie auf die Regeln für richtiges Husten und Niesen. <br><br>Falls Sie sich entschliessen, zur Corona Ambulanz der Charité zu gehen, zeigen Sie bitte folgenden QR Code vor, um Ihre Anmeldung zu beschleunigen:"
+  },
+  {
+    "idui": "7",
+    "text": "Niedriges Risiko"
+  },
+  {
+    "idui": "8",
+    "text": "Mittleres Risiko"
+  },
+  {
+    "idui": "9",
+    "text": "Hohes Risiko"
   }
 ]

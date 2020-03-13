@@ -37,10 +37,15 @@ $(function() {
   $(document).ready(init);
 
   function refreshUI() {
-    $('#qrcode_instructions').append(UI(UI_QRCODEINSTRUCTIONS));
+
+//    $('#qrcode_instructions').append(UI(UI_QRCODEINSTRUCTIONS));
     $('#low_risk').append(UI(UI_LOWRISK));
     $('#medium_risk').append(UI(UI_MEDIUMRISK));
     $('#high_risk').append(UI(UI_HIGHRISK));
+    $('#low_risk_title').append(UI(UI_LOWRISKTITLE));
+    $('#medium_risk_title').append(UI(UI_MEDIUMRISKTITLE));
+    $('#high_risk_title').append(UI(UI_HIGHRISKTITLE));
+
   }
 
   function init() {
@@ -58,6 +63,7 @@ $(function() {
   }
 
   function hidecontrols(risk) {
+
     switch (risk) {
       case HIGHRISK:
         $('#high_risk_card').show();
@@ -90,7 +96,7 @@ $(function() {
   function generateQR() {
     var score = sessionStorage.getItem('score');
     var qrxml_str = localStorage.getItem('qrxml_str');
-    sessionStorage.removeItem('score');
+    //sessionStorage.removeItem('score');
 
     hidecontrols(risk_from_score(score));
 
