@@ -1,8 +1,7 @@
 [
 	{
-		"___comment": "This file is part of CovAPP. CovAPP is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. CovAPP is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with CovAPP.  If not, see <http://www.gnu.org/licenses/>.",
 		"idquestion" : 0,
-		"text" : "Disclaimer <br><br><p>Usage of this app does not substitute medical treatment by a physician. If you currently feel seriously ill, please immediately contact a physician. <br><br>Remarks regarding usage of cookies<br>This website uses cookies, which are necessary for the function of the website. Personal data is not stored and no conclusions regarding the identity of the user can be made.",
+		"text" : "Disclaimer <br><br><p>Usage of this app does not substitute medical treatment by a physician. If you currently feel ill, please immediately contact a physician. <br><br>Remarks regarding usage of cookies<br>This website uses cookies, which are necessary for the function of the website. Personal data is not stored and no conclusions regarding the identity of the user can be made.",
 		"comment" : null,
 		"option1" : null,
 		"option2" : null,
@@ -128,8 +127,8 @@
 		"option2" : "Iran",
 		"option3" : "China",
 		"option4" : "South Korea",
-		"option5" : "I haven't visited any of these countries",
-		"option6" : null,
+		"option5" : "France",
+		"option6" : "I haven't visited any of these countries",
 		"option7" : null,
 		"option8" : null,
 		"option9" : null,
