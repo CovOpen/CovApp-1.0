@@ -1,7 +1,7 @@
 [
 	{
 		"idquestion" : 0,
-		"text" : "Disclaimer <br><br><p>Die Nutzung dieser App ersetzt keine ärztliche Behandlung. Wenn Sie sich aktuell schwer krank fühlen, suchen Sie bitte umgehend eine Ärztin oder einen Arztmedizinische Hilfe auf. <br><br>Hinweis auf die Verwendung von Cookies<br>Diese Website verwendet einen Cookie, welcher zur Handhabung der Website erforderlich ist. Persönliche Daten, die einen Rückschluss auf Ihre Person zulassen, werden nicht gespeichert.",
+		"text" : "Hinweis <br><br><p>Die Nutzung dieser App ersetzt keine ärztliche Behandlung. Wenn Sie sich aktuell schwer krank fühlen, suchen Sie bitte umgehend einen Arzt/Ärztin oder medizinische Hilfe auf. <br><br>Hinweis auf die Verwendung von Cookies<br>Diese Website verwendet einen Cookie, welcher zur Handhabung der Website erforderlich ist. Persönliche Daten, die einen Rückschluss auf Ihre Person zulassen, werden nicht gespeichert.",
 		"comment" : null,
 		"option1" : null,
 		"option2" : null,
@@ -121,7 +121,7 @@
 	},
 	{
 		"idquestion" : 8,
-		"text" : "Waren Sie in einem der folgenden Länder?",
+		"text" : "Bitte wählen Sie das Land, welches Sie zuletzt besucht haben.",
 		"comment" : null,
 		"option1" : "Italien",
 		"option2" : "Iran",
