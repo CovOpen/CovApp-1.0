@@ -1,7 +1,8 @@
 [
 	{
 		"idquestion" : 0,
-		"text" : "Disclaimer <br><br><p>Usage of this app does not substitute medical treatment by a physician. If you currently feel ill, please immediately contact a physician. <br><br>Remarks regarding usage of cookies<br>This website uses cookies, which are necessary for the function of the website. Personal data is not stored and no conclusions regarding the identity of the user can be made.",
+
+		"text" : "Disclaimer <br><br><p>Usage of this app does not substitute medical treatment by a physician. If you seriously feel ill, please immediately contact a physician. <br><br>Remarks regarding usage of cookies<br>This website uses cookies, which are necessary for the function of the website. Personal data is not stored and no conclusions regarding the identity of the user can be made.",
 		"comment" : null,
 		"option1" : null,
 		"option2" : null,
@@ -128,9 +129,9 @@
 		"option3" : "China",
 		"option4" : "South Korea",
 		"option5" : "France",
-		"option6" : "I haven't visited any of these countries",
-		"option7" : null,
-		"option8" : null,
+		"option6" : "Austria",
+		"option7" : "Spain",
+		"option8" : "I haven't visited any of these countries",
 		"option9" : null,
 		"option10" : null
 	},
@@ -211,10 +212,10 @@
 	},
 	{
 		"idquestion" : 14,
-		"text" : null,
+		"text" : "Austria: Have you visited one of the following regions?",
 		"comment" : null,
-		"option1" : null,
-		"option2" : null,
+		"option1" : "State of Tyrol",
+		"option2" : "I haven't visited any of these regions",
 		"option3" : null,
 		"option4" : null,
 		"option5" : null,
@@ -226,10 +227,10 @@
 	},
 	{
 		"idquestion" : 15,
-		"text" : null,
+		"text" : "Spain: Have you visited one of the following regions?",
 		"comment" : null,
-		"option1" : null,
-		"option2" : null,
+		"option1" : "Madrid",
+		"option2" : "I haven't visited any of these regions",
 		"option3" : null,
 		"option4" : null,
 		"option5" : null,
