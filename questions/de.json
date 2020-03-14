@@ -466,7 +466,7 @@
 	},
 	{
 		"idquestion" : 31,
-		"text" : "Haben sich die Symptome in den letzten 14 Tagen entwickelt?",
+		"text" : "Sind Sie schneller ausser Atem als sonst?",
 		"comment" : null,
 		"option1" : "ja",
 		"option2" : "nein",
@@ -481,6 +481,21 @@
 	},
 	{
 		"idquestion" : 32,
+		"text" : "Haben sich die Symptome in den letzten 14 Tagen entwickelt?",
+		"comment" : null,
+		"option1" : "ja",
+		"option2" : "nein",
+		"option3" : null,
+		"option4" : null,
+		"option5" : null,
+		"option6" : null,
+		"option7" : null,
+		"option8" : null,
+		"option9" : null,
+		"option10" : null
+	},
+	{
+		"idquestion" : 33,
 		"text" : "Haben Sie chronische Lungenvorerkrankungen?",
 		"comment" : null,
 		"option1" : "ja",
@@ -495,7 +510,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 33,
+		"idquestion" : 34,
 		"text" : "Haben Sie Diabetes?",
 		"comment" : null,
 		"option1" : "ja",
@@ -510,7 +525,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 34,
+		"idquestion" : 35,
 		"text" : "Haben Sie Herzerkrankungen?",
 		"comment" : null,
 		"option1" : "ja",
@@ -525,7 +540,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 35,
+		"idquestion" : 36,
 		"text" : "Haben Sie Fettsucht (Adipositas)?",
 		"comment" : null,
 		"option1" : "ja",
@@ -540,7 +555,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 36,
+		"idquestion" : 37,
 		"text" : "Sind Sie schwanger?",
 		"comment" : null,
 		"option1" : "ja",
@@ -555,7 +570,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 37,
+		"idquestion" : 38,
 		"text" : "Nehmen Sie aktuell Cortison?",
 		"comment" : null,
 		"option1" : "ja",
@@ -570,7 +585,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 38,
+		"idquestion" : 39,
 		"text" : "Nehmen Sie aktuell Immunsuppressiva?",
 		"comment" : "Immunsuprimmiert sind Sie nach einer Organtransplantation, in der Therpie einer Autoimmunerkrankung oder während einer Chemotherapie.",
 		"option1" : "ja",
@@ -585,7 +600,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 39,
+		"idquestion" : 40,
 		"text" : "Haben Sie sich im Zeitraum von Oktober 2019 bis heute gegen Grippe impfen lassen?",
 		"comment" : null,
 		"option1" : "ja",
