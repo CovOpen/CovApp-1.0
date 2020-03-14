@@ -24,12 +24,13 @@ const UI_QUESTION_ERROR = "1";
 const UI_QUESTION_ERRORMESSAGE = "2";
 const UI_QRCODEINSTRUCTIONS = "3";
 const UI_LOWRISK = "4";
-const UI_MEDIUMRISK = "5";
-const UI_HIGHRISK = "6";
-const UI_LOWRISKTITLE = "7";
-const UI_MEDIUMRISKTITLE = "8";
-const UI_HIGHRISKTITLE = "9";
-
+const UI_MEDIUMRISK1 = "5";
+const UI_MEDIUMRISK2 = "6";
+const UI_HIGHRISK = "7";
+const UI_LOWRISKTITLE = "8";
+const UI_MEDIUMRISKTITLE1 = "9";
+const UI_MEDIUMRISKTITLE2 = "10";
+const UI_HIGHRISKTITLE = "11";
 
 var ui_strings;
 function getUI(UIcallback) {

@@ -54,7 +54,9 @@ function encodeXMLQR(answers, questions) {
   for (i = 0; i < answers.length; i++) {
     var answer = answers[i];
     var question = questions[i];
-    XML.Node(question['XMLFIELD2'], answer.toString());
+    if(question['XMLFIELD2'] !== null) {
+      XML.Node(question['XMLFIELD2'], answer.toString());
+    }
   }
   XML.EndNode();
   qrxml_str = XML.ToString();

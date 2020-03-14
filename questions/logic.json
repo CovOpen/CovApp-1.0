@@ -436,7 +436,7 @@
 		"XMLFIELD" : "DATERETURNJOURNEY",
 		"XMLFIELD2" : "P",
 		"type" : 1,
-		"score1" : null,
+		"score1" : 10000,
 		"score2" : null,
 		"score3" : null,
 		"score4" : null,
@@ -517,7 +517,7 @@
 		"XMLFIELD" : "DATECONTACT",
 		"XMLFIELD2" : "S",
 		"type" : 1,
-		"score1" : null,
+		"score1" : 100000,
 		"score2" : null,
 		"score3" : null,
 		"score4" : null,
@@ -544,7 +544,7 @@
 		"XMLFIELD" : "FEVER24H",
 		"XMLFIELD2" : "T",
 		"type" : 1,
-		"score1" : 100,
+		"score1" : 1000,
 		"score2" : null,
 		"score3" : null,
 		"score4" : null,
@@ -571,7 +571,7 @@
 		"XMLFIELD" : "FEVER4D",
 		"XMLFIELD2" : "U",
 		"type" : 1,
-		"score1" : 100,
+		"score1" : 1000,
 		"score2" : null,
 		"score3" : null,
 		"score4" : null,
@@ -706,7 +706,7 @@
 		"XMLFIELD" : "COUGH",
 		"XMLFIELD2" : "Z",
 		"type" : 1,
-		"score1" : 100,
+		"score1" : 1000,
 		"score2" : null,
 		"score3" : null,
 		"score4" : null,
@@ -838,6 +838,33 @@
 	},
 	{
 		"idquestion" : 31,
+		"XMLFIELD" : "BREATH",
+		"XMLFIELD2" : null,
+		"type" : 1,
+		"score1" : 1000,
+		"score2" : null,
+		"score3" : null,
+		"score4" : null,
+		"score5" : null,
+		"score6" : null,
+		"score7" : null,
+		"score8" : null,
+		"score9" : null,
+		"score10" : null,
+		"nextquestion1" : null,
+		"nextquestion2" : null,
+		"nextquestion3" : null,
+		"nextquestion4" : null,
+		"nextquestion5" : null,
+		"nextquestion6" : null,
+		"nextquestion7" : null,
+		"nextquestion8" : null,
+		"nextquestion9" : null,
+		"nextquestion10" : null,
+		"enabled" : 1
+	},
+	{
+		"idquestion" : 32,
 		"XMLFIELD" : "ONSETSYMPTOMS",
 		"XMLFIELD2" : "A4",
 		"type" : 1,
@@ -864,7 +891,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 32,
+		"idquestion" : 33,
 		"XMLFIELD" : "LUNGDISEASE",
 		"XMLFIELD2" : "A5",
 		"type" : 1,
@@ -891,7 +918,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 33,
+		"idquestion" : 34,
 		"XMLFIELD" : "DIABETES",
 		"XMLFIELD2" : "A6",
 		"type" : 1,
@@ -918,7 +945,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 34,
+		"idquestion" : 35,
 		"XMLFIELD" : "HEARTDISEASE",
 		"XMLFIELD2" : "A7",
 		"type" : 1,
@@ -945,7 +972,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 35,
+		"idquestion" : 36,
 		"XMLFIELD" : "OVERWEIGHT",
 		"XMLFIELD2" : "A8",
 		"type" : 1,
@@ -972,7 +999,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 36,
+		"idquestion" : 37,
 		"XMLFIELD" : "PREGNANCY",
 		"XMLFIELD2" : "A9",
 		"type" : 1,
@@ -999,7 +1026,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 37,
+		"idquestion" : 38,
 		"XMLFIELD" : "CORTISONE",
 		"XMLFIELD2" : "B0",
 		"type" : 1,
@@ -1026,7 +1053,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 38,
+		"idquestion" : 39,
 		"XMLFIELD" : "IMMUNSUPPRESSANT",
 		"XMLFIELD2" : "B1",
 		"type" : 1,
@@ -1053,7 +1080,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 39,
+		"idquestion" : 40,
 		"XMLFIELD" : "INFLUENZA",
 		"XMLFIELD2" : "B2",
 		"type" : 1,

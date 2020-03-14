@@ -18,8 +18,10 @@
     */
 
 $(function() {
-  const HIGHRISK = 3;
-  const MEDIUMRISK = 2;
+
+  const HIGHRISK = 4;
+  const MEDIUMRISK1 = 3;
+  const MEDIUMRISK2 = 2;
   const LOWRISK = 1;
 
   width = window.innerWidth - 60;
@@ -40,12 +42,13 @@ $(function() {
 
 //    $('#qrcode_instructions').append(UI(UI_QRCODEINSTRUCTIONS));
     $('#low_risk').append(UI(UI_LOWRISK));
-    $('#medium_risk').append(UI(UI_MEDIUMRISK));
+    $('#medium_risk1').append(UI(UI_MEDIUMRISK1));
+    $('#medium_risk2').append(UI(UI_MEDIUMRISK2));
     $('#high_risk').append(UI(UI_HIGHRISK));
     $('#low_risk_title').append(UI(UI_LOWRISKTITLE));
-    $('#medium_risk_title').append(UI(UI_MEDIUMRISKTITLE));
+    $('#medium_risk_title1').append(UI(UI_MEDIUMRISKTITLE1));
+    $('#medium_risk_title2').append(UI(UI_MEDIUMRISKTITLE2));
     $('#high_risk_title').append(UI(UI_HIGHRISKTITLE));
-
   }
 
   function init() {
@@ -55,11 +58,31 @@ $(function() {
     $('#print').click(function(){window.print()});
   }
 
+  function scoreDigitSet(i,j) {
+    var str = i.toString();
+    while(str.length<6) str = "0" + str;
+    if(str.substr(j-1,1) == '0') return false;
+    return true;
+  }
+
   function risk_from_score(score) {
     if (!score) return null;
-    if (score >= 100) return HIGHRISK;
+    var severe_symptoms = scoreDigitSet(score,3);
+    var light_symptoms = scoreDigitSet(score,4);
+    var contact = scoreDigitSet(score,5);
+    var riskregion = scoreDigitSet(score,6);
+    var contactwithin14d = scoreDigitSet(score,2);
+    var returnwithin14d = scoreDigitSet(score,1);
+    if(!contactwithin14d) contact = false;
+    if(!returnwithin14d) riskregion = false;
+
+    if(severe_symptoms) return HIGHRISK;
+    if(light_symptoms && (contact || riskregion)) return HIGHRISK;
+    if(light_symptoms && !(contact || riskregion)) return MEDIUMRISK2;
+    if(contact|| riskregion) return MEDIUMRISK1;
     if (score == 0) return LOWRISK;
-    return MEDIUMRISK;
+
+    return -1; // Error
   }
 
   function hidecontrols(risk) {
@@ -68,10 +91,12 @@ $(function() {
       case HIGHRISK:
         $('#high_risk_card').show();
         break;
-      case MEDIUMRISK:
-        $('#medium_risk_card').show();
-
+      case MEDIUMRISK1:
+        $('#medium_risk_card1').show();
         break;
+      case MEDIUMRISK2:
+          $('#medium_risk_card2').show();
+          break;
       case LOWRISK:
         $('#low_risk_card').show();
         break;
