@@ -48,7 +48,7 @@
 		"idquestion" : 3,
 		"text" : "Sind Sie in einem der folgenden Bereiche tätig?",
 		"comment" : null,
-		"option1" : "im medizinsichen Bereich",
+		"option1" : "im medizinischen Bereich",
 		"option2" : "in einer Gemeinschaftseinrichtung (Schule, Kita, Universität, Heim etc.)",
 		"option3" : "Anderer Bereich",
 		"option4" : null,
@@ -128,7 +128,6 @@
 		"option3" : "China",
 		"option4" : "Südkorea",
 		"option5" : "Frankreich",
-
 		"option6" : "Österreich",
 		"option7" : "Spanien",
 		"option8" : "Ich war in keinem der oben genannten Länder",

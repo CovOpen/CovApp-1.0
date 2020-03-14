@@ -1,7 +1,6 @@
 [
 	{
 		"idquestion" : 0,
-
 		"text" : "Disclaimer <br><br><p>Usage of this app does not substitute medical treatment by a physician. If you seriously feel ill, please immediately contact a physician. <br><br>Remarks regarding usage of cookies<br>This website uses cookies, which are necessary for the function of the website. Personal data is not stored and no conclusions regarding the identity of the user can be made.",
 		"comment" : null,
 		"option1" : null,
@@ -467,7 +466,7 @@
 	},
 	{
 		"idquestion" : 31,
-		"text" : "Did you experience any of the symptoms in the last 14 days?",
+		"text" : "Are you out of breath faster than usual?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
@@ -482,6 +481,21 @@
 	},
 	{
 		"idquestion" : 32,
+		"text" : "Did you experience any of the symptoms in the last 14 days?",
+		"comment" : null,
+		"option1" : "yes",
+		"option2" : "no",
+		"option3" : null,
+		"option4" : null,
+		"option5" : null,
+		"option6" : null,
+		"option7" : null,
+		"option8" : null,
+		"option9" : null,
+		"option10" : null
+	},
+	{
+		"idquestion" : 33,
 		"text" : "Do you have chronic lung diseases?",
 		"comment" : null,
 		"option1" : "yes",
@@ -496,7 +510,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 33,
+		"idquestion" : 34,
 		"text" : "Do you have diabetes?",
 		"comment" : null,
 		"option1" : "yes",
@@ -511,7 +525,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 34,
+		"idquestion" : 35,
 		"text" : "Do you have heart diseases?",
 		"comment" : null,
 		"option1" : "yes",
@@ -526,7 +540,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 35,
+		"idquestion" : 36,
 		"text" : "Do you have obesity?",
 		"comment" : null,
 		"option1" : "yes",
@@ -541,7 +555,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 36,
+		"idquestion" : 37,
 		"text" : "Are you pregnant?",
 		"comment" : null,
 		"option1" : "yes",
@@ -556,7 +570,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 37,
+		"idquestion" : 38,
 		"text" : "Do you currently take cortisone?",
 		"comment" : null,
 		"option1" : "yes",
@@ -571,7 +585,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 38,
+		"idquestion" : 39,
 		"text" : "Do you currently take immunsuppresive drugs?",
 		"comment" : "You are immunosuppressed after an organ transplantation, if you receive treatment for autoimmunue diseases or if you currently receive chemotherapy.",
 		"option1" : "yes",
@@ -586,7 +600,7 @@
 		"option10" : null
 	},
 	{
-		"idquestion" : 39,
+		"idquestion" : 40,
 		"text" : "Did you receive vaccination for influenza anytime between October 2019 and now?",
 		"comment" : null,
 		"option1" : "yes",

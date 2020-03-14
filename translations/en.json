@@ -18,26 +18,34 @@
   },
   {
     "idui": "4",
-    "text": "Currently, you don't need to do anything, since: <br><br>- you didn't have contact to a verified case<br>- you haven't been in a risk region with frequent SARS-COV2 cases<br>- and you don't have symptoms.<br>Please carefully take hand hygiene into consideration.<br><br>If you develop symptoms of a cold in the next couple of days, please contact the hotline of the Senate Department for Health (Tel. 030/9028  28 28) or one of the Coronavirus ambulances. <br><br>If you decide to go to the Coronavirus ambulance of the Charité, please show the following QR Code to speed up your registration process:"
+    "text": "Currently, you don't need to do anything, since: <br><br>- you didn't have contact to a verified case<br>- you haven't been in a risk region with frequent SARS-COV2 cases<br>- and you don't have symptoms.<br>Please carefully take hand hygiene into consideration.<br><br>If you develop symptoms of a cold in the next couple of days, please contact the hotline of the Senate Department for Health (Tel. 030/9028  28 28) or one of the Coronavirus ambulances. <br>"
   },
   {
     "idui": "5",
-    "text": "Please immediately contact your local health department or call the hotline of the Senate Department for Health (Tel. 030/9028  28 28).<br>Please avoid contact to other people and stay at home, if possible.<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons. If you develop symptoms of a cold in the next couple of days, please contact the hotline of the Senate Department for Health (Tel. 030/9028  28 28) or one of the Coronavirus ambulances. <br><br>If you decide to go to the Coronavirus ambulance of the Charité, please show the following QR Code to speed up your registration process:"
+    "text": "Please stay at home and avoid unneccessary contact to other persons.<br>Please contact your local health department or call the hotline of the Senate Department for Health (Tel. 030/9028  28 28) for further steps.<br>Please avoid contact to other people and stay at home, if possible.<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons.<br>If you develop symptoms of a cold in the next couple of days, please contact the hotline of the Senate Department for Health (Tel. 030/9028  28 28) or one of the ambulances."
   },
   {
     "idui": "6",
-    "text": "Please immediately contact your local health department or call the hotline of the Senate Department for Health (Tel. 030/9028  28 28).<br>Please save the below QR Code and show it at the Coronavirus ambulance (currently, scanning of the QR Code is only possible at Charité).<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons.<br><br>If you decide to go to the Coronavirus ambulance of the Charité, please show the following QR Code to speed up your registration process:"
+    "text": "You are showing symptoms which are not specific to a Coronavirus infection. Please stay at home, cure yourself and avoid unneccessary contcats to other persons.<br><b>If you developing further symptoms like problems breathing, cough or fever in the next couple of days, please contact your general practitioner or one of the ambulances.</b><br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons.<br>If you feel unsure, talk with your general practitioner or please contact the hotline of the Senate Department for Health (Tel. 030/9028  28 28)."
   },
   {
     "idui": "7",
-    "text": "Low Risk"
+    "text": "Please contact your general practitioner or one of the following ambulances:<br><br><b>Coronavirus-Ambulanz im Gemeinschaftskrankenhaus Havelhöhe</b><br>Haus 16, Kladower Damm 221, Spandau<br>030/36501-7222<br>geöffnet Mo-Fr 9-20 Uhr<br><br><b>Charité-Standort Virchow in Wedding</b><br>Mittelallee 1<br>030/9028 28 28<br>geöffnet täglich 8 bis 16 Uhr<br><br><b>Vivantes-Klinikum Prenzlauer Berg</b><br>Diesterwegstraße<br>030/9028 28 28<br>Mo-Fr 10- 19 Uhr, Sa/So 10-17 Uhr<br><br><b>Vivantes Wenckebach-Klinikum in Tempelhof</b><br>Albrechtstraße<br>030/9028 28 28<br>Mo-Fr 10- 19 Uhr, Sa/So 10-17 Uhr<br><br><b>Evangelisches Krankenhaus Königin Elisabeth Herzberge in Lichtenberg</b><br>Herzbergstraße 79, 10365 Berlin<br>030/9028 28 28<br>Mo-Fr: 10-19 Uhr, Sa/So 10-17 Uhr<br><br>Please save the following QR Code and the summary of your answers. If possible, please print the summary and show it in the ambulance.<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons."
   },
   {
     "idui": "8",
-    "text": "Medium Risk"
+    "text": "Low Risk"
   },
   {
     "idui": "9",
+    "text": "Medium Risk 1"
+  },
+  {
+    "idui": "10",
+    "text": "Medium Risk 2"
+  },
+  {
+    "idui": "11",
     "text": "High Risk"
   }
 ]
