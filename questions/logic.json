@@ -598,7 +598,7 @@
 		"XMLFIELD" : "FEVERHIGHESTTEMPERATURE",
 		"XMLFIELD2" : "V",
 		"type" : 1,
-		"score1" : null,
+		"score1" : -1000,
 		"score2" : null,
 		"score3" : null,
 		"score4" : null,
