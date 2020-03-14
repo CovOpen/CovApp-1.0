@@ -541,7 +541,7 @@
 	},
 	{
 		"idquestion" : 36,
-		"text" : "Haben Sie Fettsucht (Adipositas)?",
+		"text" : "Haben Sie Adipositas (Fettsucht)?",
 		"comment" : null,
 		"option1" : "ja",
 		"option2" : "nein",
