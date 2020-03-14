@@ -71,8 +71,8 @@ $(function() {
     var light_symptoms = scoreDigitSet(score,4);
     var contact = scoreDigitSet(score,5);
     var riskregion = scoreDigitSet(score,6);
-    var contactwithin14d = scoreDigitSet(score,2);
-    var returnwithin14d = scoreDigitSet(score,1);
+    var contactwithin14d = scoreDigitSet(score,1);
+    var returnwithin14d = scoreDigitSet(score,2);
     if(!contactwithin14d) contact = false;
     if(!returnwithin14d) riskregion = false;
 
