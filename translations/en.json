@@ -30,7 +30,7 @@
   },
   {
     "idui": "7",
-    "text": "Please contact your general practitioner or one of the following ambulances:<br><br><b>Coronavirus-Ambulanz im Gemeinschaftskrankenhaus Havelhöhe</b><br>Haus 16, Kladower Damm 221, Spandau<br>030/36501-7222<br>geöffnet Mo-Fr 9-20 Uhr<br><br><b>Charité-Standort Virchow in Wedding</b><br>Mittelallee 1<br>030/9028 28 28<br>geöffnet täglich 8 bis 16 Uhr<br><br><b>Vivantes-Klinikum Prenzlauer Berg</b><br>Diesterwegstraße<br>030/9028 28 28<br>Mo-Fr 10- 19 Uhr, Sa/So 10-17 Uhr<br><br><b>Vivantes Wenckebach-Klinikum in Tempelhof</b><br>Albrechtstraße<br>030/9028 28 28<br>Mo-Fr 10- 19 Uhr, Sa/So 10-17 Uhr<br><br><b>Evangelisches Krankenhaus Königin Elisabeth Herzberge in Lichtenberg</b><br>Herzbergstraße 79, 10365 Berlin<br>030/9028 28 28<br>Mo-Fr: 10-19 Uhr, Sa/So 10-17 Uhr<br><br>Please save the following QR Code and the summary of your answers. If possible, please print the summary and show it in the ambulance.<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons."
+    "text": "Please contact your general practitioner or one of the following ambulances:<br><br><b>Coronavirus-Ambulanz im Gemeinschaftskrankenhaus Havelhöhe</b><br>Haus 16, Kladower Damm 221, Spandau<br><b>030/36501-7222</b><br>geöffnet Mo-Fr 9-20 Uhr<br><br><b>Charité-Standort Virchow in Wedding</b><br>Mittelallee 1<br><b>030/9028 28 28</b><br>geöffnet täglich 8 bis 16 Uhr<br><br><b>Vivantes-Klinikum Prenzlauer Berg</b><br>Diesterwegstraße<br><b>030/9028 28 28</b><br>Mo-Fr 10- 19 Uhr, Sa/So 10-17 Uhr<br><br><b>Vivantes Wenckebach-Klinikum in Tempelhof</b><br>Albrechtstraße<br><b>030/9028 28 28</b><br>Mo-Fr 10- 19 Uhr, Sa/So 10-17 Uhr<br><br><b>Evangelisches Krankenhaus Königin Elisabeth Herzberge in Lichtenberg</b><br>Herzbergstraße 79, 10365 Berlin<br><b>030/9028 28 28</b><br>Mo-Fr: 10-19 Uhr, Sa/So 10-17 Uhr<br><br>Please save the following QR Code and the summary of your answers. If possible, please print the summary and show it in the ambulance.<br>If you need to leave home: Please keep a distance of at least 2 meters to other persons, do not touch anything and try to correctly cough and sneeze without affecting persons."
   },
   {
     "idui": "8",
@@ -38,11 +38,11 @@
   },
   {
     "idui": "9",
-    "text": "Medium Risk 1"
+    "text": "Medium Risk"
   },
   {
     "idui": "10",
-    "text": "Medium Risk 2"
+    "text": "Medium Risk"
   },
   {
     "idui": "11",
