@@ -272,7 +272,7 @@
 	{
 		"idquestion" : 18,
 		"text" : "Hatten Sie engen Kontakt zu einem Verdachtsfall?",
-		"comment" : "Enger Kontakt mit einem Verdachtsfall bedeutet: <br/><br/>- im selben Haus leben<br/>- Kontakt von Angesicht zu Angesicht, zum Beispiel länger als ein paar Minuten<br/>- angehustet worden<br/>- länger als 15 Minuten innerhalb von 2 Metern von der Person entfernt sein<br/>- Kontakt mit/Austausch von Körperflüssigkeiten",
+		"comment" : "Ein Verdachtsfall ist eine Person, die <b>aktuell Fieber, Husten oder Atemnot</b hat und Kontakt zu einem bestätigten Fall hatte oder sich in einer Region mit gehäuften Corona-Virus Infektionen aufgehalten hat.<br><br>Enger Kontakt mit einem Verdachtsfall bedeutet:<br>- im selben Haus leben<br>- Kontakt von Angesicht zu Angesicht, zum Beispiel länger als ein paar Minuten<br>- angehustet worden<br>- länger als 15 Minuten innerhalb von 2 Metern von der Person entfernt sein<br>- Kontakt mit/Austausch von Körperflüssigkeiten<br>",
 		"option1" : "ja",
 		"option2" : "nein",
 		"option3" : null,
