@@ -80,9 +80,7 @@ $(function() {
     if(light_symptoms && (contact || riskregion)) return HIGHRISK;
     if(light_symptoms && !(contact || riskregion)) return MEDIUMRISK2;
     if(contact|| riskregion) return MEDIUMRISK1;
-    if (score == 0) return LOWRISK;
-
-    return -1; // Error
+    return LOWRISK;
   }
 
   function hidecontrols(risk) {

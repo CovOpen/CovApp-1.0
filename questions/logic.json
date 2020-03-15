@@ -150,7 +150,7 @@
 		"score9" : null,
 		"score10" : null,
 		"nextquestion1" : null,
-		"nextquestion2" : 17,
+		"nextquestion2" : 18,
 		"nextquestion3" : null,
 		"nextquestion4" : null,
 		"nextquestion5" : null,
@@ -204,7 +204,7 @@
 		"score9" : null,
 		"score10" : null,
 		"nextquestion1" : null,
-		"nextquestion2" : 16,
+		"nextquestion2" : 17,
 		"nextquestion3" : null,
 		"nextquestion4" : null,
 		"nextquestion5" : null,
@@ -238,7 +238,7 @@
 		"nextquestion6" : 14,
 		"nextquestion7" : 15,
 		"nextquestion8" : 16,
-		"nextquestion9" : null,
+		"nextquestion9" : 17,
 		"nextquestion10" : null,
 		"enabled" : 1
 	},
@@ -257,16 +257,16 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 16,
-		"nextquestion2" : 16,
-		"nextquestion3" : 16,
-		"nextquestion4" : 16,
-		"nextquestion5" : 16,
-		"nextquestion6" : 16,
-		"nextquestion7" : 16,
-		"nextquestion8" : 16,
-		"nextquestion9" : 16,
-		"nextquestion10" : 16,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
 		"enabled" : 1
 	},
 	{
@@ -284,16 +284,16 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 16,
-		"nextquestion2" : 16,
-		"nextquestion3" : 16,
-		"nextquestion4" : 16,
-		"nextquestion5" : 16,
-		"nextquestion6" : 16,
-		"nextquestion7" : 16,
-		"nextquestion8" : 16,
-		"nextquestion9" : 16,
-		"nextquestion10" : 16,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
 		"enabled" : 1
 	},
 	{
@@ -311,16 +311,16 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 16,
-		"nextquestion2" : 16,
-		"nextquestion3" : 16,
-		"nextquestion4" : 16,
-		"nextquestion5" : 16,
-		"nextquestion6" : 16,
-		"nextquestion7" : 16,
-		"nextquestion8" : 16,
-		"nextquestion9" : 16,
-		"nextquestion10" : 16,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
 		"enabled" : 1
 	},
 	{
@@ -338,16 +338,16 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 16,
-		"nextquestion2" : 16,
-		"nextquestion3" : 16,
-		"nextquestion4" : 16,
-		"nextquestion5" : 16,
-		"nextquestion6" : 16,
-		"nextquestion7" : 16,
-		"nextquestion8" : 16,
-		"nextquestion9" : 16,
-		"nextquestion10" : 16,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
 		"enabled" : 1
 	},
 	{
@@ -365,16 +365,16 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 16,
-		"nextquestion2" : 16,
-		"nextquestion3" : null,
-		"nextquestion4" : null,
-		"nextquestion5" : null,
-		"nextquestion6" : null,
-		"nextquestion7" : null,
-		"nextquestion8" : null,
-		"nextquestion9" : null,
-		"nextquestion10" : null,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
 		"enabled" : 1
 	},
 	{
@@ -392,16 +392,16 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 16,
-		"nextquestion2" : 16,
-		"nextquestion3" : null,
-		"nextquestion4" : null,
-		"nextquestion5" : null,
-		"nextquestion6" : null,
-		"nextquestion7" : null,
-		"nextquestion8" : null,
-		"nextquestion9" : null,
-		"nextquestion10" : null,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
 		"enabled" : 1
 	},
 	{
@@ -419,20 +419,47 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : null,
-		"nextquestion2" : null,
-		"nextquestion3" : null,
-		"nextquestion4" : null,
-		"nextquestion5" : null,
-		"nextquestion6" : null,
-		"nextquestion7" : null,
-		"nextquestion8" : null,
-		"nextquestion9" : null,
-		"nextquestion10" : null,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
 		"enabled" : 1
 	},
 	{
 		"idquestion" : 16,
+		"XMLFIELD" : "REGIONUSA",
+		"XMLFIELD2" : null,
+		"type" : 1,
+		"score1" : 1,
+		"score2" : 1,
+		"score3" : 1,
+		"score4" : null,
+		"score5" : null,
+		"score6" : null,
+		"score7" : null,
+		"score8" : null,
+		"score9" : null,
+		"score10" : null,
+		"nextquestion1" : 17,
+		"nextquestion2" : 17,
+		"nextquestion3" : 17,
+		"nextquestion4" : 17,
+		"nextquestion5" : 17,
+		"nextquestion6" : 17,
+		"nextquestion7" : 17,
+		"nextquestion8" : 17,
+		"nextquestion9" : 17,
+		"nextquestion10" : 17,
+		"enabled" : 1
+	},
+	{
+		"idquestion" : 17,
 		"XMLFIELD" : "DATERETURNJOURNEY",
 		"XMLFIELD2" : "P",
 		"type" : 1,
@@ -459,7 +486,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 17,
+		"idquestion" : 18,
 		"XMLFIELD" : "CONTACTVERIFIEDCASE",
 		"XMLFIELD2" : "Q",
 		"type" : 1,
@@ -473,7 +500,7 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 19,
+		"nextquestion1" : 20,
 		"nextquestion2" : null,
 		"nextquestion3" : null,
 		"nextquestion4" : null,
@@ -486,7 +513,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 18,
+		"idquestion" : 19,
 		"XMLFIELD" : "CONTACTSUSPECTEDCASE",
 		"XMLFIELD2" : "R",
 		"type" : 1,
@@ -501,7 +528,7 @@
 		"score9" : null,
 		"score10" : null,
 		"nextquestion1" : null,
-		"nextquestion2" : 20,
+		"nextquestion2" : 21,
 		"nextquestion3" : null,
 		"nextquestion4" : null,
 		"nextquestion5" : null,
@@ -513,7 +540,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 19,
+		"idquestion" : 20,
 		"XMLFIELD" : "DATECONTACT",
 		"XMLFIELD2" : "S",
 		"type" : 1,
@@ -540,7 +567,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 20,
+		"idquestion" : 21,
 		"XMLFIELD" : "FEVER24H",
 		"XMLFIELD2" : "T",
 		"type" : 1,
@@ -554,7 +581,7 @@
 		"score8" : null,
 		"score9" : null,
 		"score10" : null,
-		"nextquestion1" : 22,
+		"nextquestion1" : 23,
 		"nextquestion2" : null,
 		"nextquestion3" : null,
 		"nextquestion4" : null,
@@ -567,7 +594,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 21,
+		"idquestion" : 22,
 		"XMLFIELD" : "FEVER4D",
 		"XMLFIELD2" : "U",
 		"type" : 1,
@@ -582,7 +609,7 @@
 		"score9" : null,
 		"score10" : null,
 		"nextquestion1" : null,
-		"nextquestion2" : 23,
+		"nextquestion2" : 24,
 		"nextquestion3" : null,
 		"nextquestion4" : null,
 		"nextquestion5" : null,
@@ -594,7 +621,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 22,
+		"idquestion" : 23,
 		"XMLFIELD" : "FEVERHIGHESTTEMPERATURE",
 		"XMLFIELD2" : "V",
 		"type" : 1,
@@ -621,7 +648,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 23,
+		"idquestion" : 24,
 		"XMLFIELD" : "CHILL",
 		"XMLFIELD2" : "W",
 		"type" : 1,
@@ -648,7 +675,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 24,
+		"idquestion" : 25,
 		"XMLFIELD" : "EXHAUSTION",
 		"XMLFIELD2" : "X",
 		"type" : 1,
@@ -675,7 +702,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 25,
+		"idquestion" : 26,
 		"XMLFIELD" : "LIMBPAIN",
 		"XMLFIELD2" : "Y",
 		"type" : 1,
@@ -702,7 +729,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 26,
+		"idquestion" : 27,
 		"XMLFIELD" : "COUGH",
 		"XMLFIELD2" : "Z",
 		"type" : 1,
@@ -729,7 +756,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 27,
+		"idquestion" : 28,
 		"XMLFIELD" : "RHINITIS",
 		"XMLFIELD2" : "A0",
 		"type" : 1,
@@ -756,7 +783,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 28,
+		"idquestion" : 29,
 		"XMLFIELD" : "DIARRHAE",
 		"XMLFIELD2" : "A1",
 		"type" : 1,
@@ -783,7 +810,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 29,
+		"idquestion" : 30,
 		"XMLFIELD" : "SORETHROAT",
 		"XMLFIELD2" : "A2",
 		"type" : 1,
@@ -810,7 +837,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 30,
+		"idquestion" : 31,
 		"XMLFIELD" : "HEADACHE",
 		"XMLFIELD2" : "A3",
 		"type" : 1,
@@ -837,7 +864,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 31,
+		"idquestion" : 32,
 		"XMLFIELD" : "BREATH",
 		"XMLFIELD2" : null,
 		"type" : 1,
@@ -864,7 +891,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 32,
+		"idquestion" : 33,
 		"XMLFIELD" : "ONSETSYMPTOMS",
 		"XMLFIELD2" : "A4",
 		"type" : 1,
@@ -891,7 +918,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 33,
+		"idquestion" : 34,
 		"XMLFIELD" : "LUNGDISEASE",
 		"XMLFIELD2" : "A5",
 		"type" : 1,
@@ -918,7 +945,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 34,
+		"idquestion" : 35,
 		"XMLFIELD" : "DIABETES",
 		"XMLFIELD2" : "A6",
 		"type" : 1,
@@ -945,7 +972,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 35,
+		"idquestion" : 36,
 		"XMLFIELD" : "HEARTDISEASE",
 		"XMLFIELD2" : "A7",
 		"type" : 1,
@@ -972,7 +999,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 36,
+		"idquestion" : 37,
 		"XMLFIELD" : "OVERWEIGHT",
 		"XMLFIELD2" : "A8",
 		"type" : 1,
@@ -999,7 +1026,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 37,
+		"idquestion" : 38,
 		"XMLFIELD" : "PREGNANCY",
 		"XMLFIELD2" : "A9",
 		"type" : 1,
@@ -1026,7 +1053,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 38,
+		"idquestion" : 39,
 		"XMLFIELD" : "CORTISONE",
 		"XMLFIELD2" : "B0",
 		"type" : 1,
@@ -1053,7 +1080,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 39,
+		"idquestion" : 40,
 		"XMLFIELD" : "IMMUNSUPPRESSANT",
 		"XMLFIELD2" : "B1",
 		"type" : 1,
@@ -1080,7 +1107,7 @@
 		"enabled" : 1
 	},
 	{
-		"idquestion" : 40,
+		"idquestion" : 41,
 		"XMLFIELD" : "INFLUENZA",
 		"XMLFIELD2" : "B2",
 		"type" : 1,
