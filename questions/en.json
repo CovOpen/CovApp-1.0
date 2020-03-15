@@ -466,7 +466,7 @@
 	},
 	{
 		"idquestion" : 31,
-		"text" : "Are they out of breath faster than usual?",
+		"text" : "Are you out of breath faster than usual?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
