@@ -272,7 +272,7 @@
 	{
 		"idquestion" : 18,
 		"text" : "Did you have close contact with a suspected case?",
-		"comment" : "Close contact with a suspected case means:<br/><br/>- you live in the same house<br/>- contact from face to face longer than a couple of minutes<br/>- been coughed on<br/>- been longer than 15 minutes closer than 2 meters to the person<br/>- contact with/exchange of body fluids",
+		"comment" : "A suspected case is a person who currently has <b>fever, cough or problems breathing</b> und who had contact with a verified case or who has been in a region with frequent cases of coronavirus infections.<br><br>Close contact with a suspected case means:<br>- you live in the same house<br>- contact from face to face longer than a couple of minutes<br>- been coughed on<br>- been longer than 15 minutes closer than 2 meters to the person<br>- contact with/exchange of body fluids<br>",
 		"option1" : "yes",
 		"option2" : "no",
 		"option3" : null,
@@ -466,7 +466,7 @@
 	},
 	{
 		"idquestion" : 31,
-		"text" : "Are you out of breath faster than usual?",
+		"text" : "Are they out of breath faster than usual?",
 		"comment" : null,
 		"option1" : "yes",
 		"option2" : "no",
