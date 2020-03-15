@@ -605,7 +605,7 @@
 		"score5" : null,
 		"score6" : null,
 		"score7" : null,
-		"score8" : null,
+		"score8" : -1000,
 		"score9" : null,
 		"score10" : null,
 		"nextquestion1" : null,
