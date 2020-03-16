@@ -55,6 +55,7 @@ $(function() {
     generateQR();
     printAnswersTable();
     getUI(refreshUI);
+    $('#deleteqr').click(deleteqr);
     $('#print').click(function(){window.print()});
   }
 
@@ -114,6 +115,10 @@ $(function() {
     }
     html += "</table>"
     return html
+  }
+
+  function deleteqr() {
+    localStorage.removeItem('qrxml_str');
   }
 
   function generateQR() {
